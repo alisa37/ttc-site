@@ -18,7 +18,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://www.meetup.com/"
+            href="https://www.meetup.com/tokyo-tennis-club/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
@@ -101,7 +101,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://www.meetup.com/"
+          href="https://www.meetup.com/tokyo-tennis-club/"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
