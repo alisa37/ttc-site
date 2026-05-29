@@ -109,6 +109,14 @@ export default function Home() {
           View Events on Meetup
         </a>
       </section>
+      {/* Footer */}
+<footer className="border-t border-gray-200 px-6 py-10 text-center text-sm text-gray-500">
+  <p>3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
+
+  <p className="mt-3">
+    Made with love by Tokyo Tennis Club
+  </p>
+</footer>
     </main>
   );
 }
