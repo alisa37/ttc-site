@@ -106,7 +106,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
         >
-          View Events on Meetup
+          Join Events on Meetup
         </a>
       </section>
       {/* Footer */}
