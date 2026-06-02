@@ -1,34 +1,45 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Tokyo Tennis Club",
-  description:
-    "International tennis community in Tokyo for intermediate and advanced players.",
-};
+  metadataBase: new URL("https://tokyo-tennis-club.com"),
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
-  );
-}
+  title: "Tokyo Tennis Club | Competitive & Social Tennis in Tokyo",
+
+  description:
+    "Join Tokyo Tennis Club, an international tennis community in Tokyo offering competitive and social tennis events for intermediate and advanced players.",
+
+  applicationName: "Tokyo Tennis Club",
+
+  alternates: {
+    canonical: "https://tokyo-tennis-club.com",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Tokyo Tennis Club",
+    description:
+      "Competitive and social tennis events in Tokyo for intermediate and advanced players.",
+    url: "https://tokyo-tennis-club.com",
+    siteName: "Tokyo Tennis Club",
+    images: [
+      {
+        url: "/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tokyo Tennis Club",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Tokyo Tennis Club",
+    description:
+      "Competitive and social tennis events in Tokyo for intermediate and advanced players.",
+    images: ["/hero.jpg"],
+  },
+};
