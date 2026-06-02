@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   applicationName: "Tokyo Tennis Club",
 
   alternates: {
-    canonical: "/",
+    canonical: "https://tokyo-tennis-club.com",
   },
 
   robots: {

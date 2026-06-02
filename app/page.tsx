@@ -103,7 +103,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Events held in Azabu-juban, Ariake, Shiba-park and more.
+                  Events held in Azabu-juban, Ariake, Shiba Park and more.
                 </p>
               </div>
 
@@ -117,6 +117,35 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* SEO Section */}
+        <section className="bg-gray-50 px-6 py-20 md:py-24">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="text-center text-3xl font-bold md:text-4xl">
+              International Tennis Community in Tokyo
+            </h2>
+
+            <p className="mt-8 text-lg leading-8 text-gray-700">
+              Tokyo Tennis Club is one of the leading international tennis
+              communities in Tokyo, bringing together players from around the
+              world for competitive and social tennis events.
+            </p>
+
+            <p className="mt-6 text-lg leading-8 text-gray-700">
+              We organize tennis events across Tokyo, including Azabu-juban,
+              Ariake, and Shiba Park, for intermediate and advanced players
+              looking to improve their game, meet new people, and enjoy
+              competitive match play.
+            </p>
+
+            <p className="mt-6 text-lg leading-8 text-gray-700">
+              Whether you are a Tokyo resident, expat, traveler, or tennis
+              enthusiast, our community offers a welcoming environment to play
+              singles, doubles, mixed doubles, and team competitions throughout
+              the year.
+            </p>
           </div>
         </section>
 
