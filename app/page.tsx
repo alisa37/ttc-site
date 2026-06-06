@@ -44,8 +44,7 @@ export default function Home() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-gray-200 md:text-xl">
-              Join an international tennis community in Tokyo for competitive
-              singles, doubles, team competitions, and tennis camps.
+              International tennis community for intermediate & advanced players.
             </p>
 
             <a
@@ -83,7 +82,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Join our private tennis community at no cost.
+                  Join our private tennis community for free and enjoy regular tennis events in Tokyo.
                 </p>
               </div>
 
@@ -104,8 +103,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Events are held across central Tokyo, including Azabu-juban,
-                  Ariake, Shiba Park, and other accessible venues.
+                  Play tennis across central Tokyo, including Azabu-juban, Ariake, Shiba Park, and more.
                 </p>
               </div>
 
@@ -115,8 +113,7 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Enjoy competitive tennis while making friends in a community
-                  that values respect, sportsmanship, and camaraderie.
+                  Enjoy competitive tennis while building friendships in a respectful and supportive community.
                 </p>
               </div>
             </div>
