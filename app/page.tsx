@@ -22,22 +22,8 @@ export default function Home() {
 
       <main className="bg-white text-black">
 
-        {/* HERO (PAGE 1) */}
-        <section
-          className="min-h-screen flex items-center justify-center px-6 text-center text-white bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/hero-desktop.jpg')",
-          }}
-        >
-          {/* mobile override */}
-          <style jsx>{`
-            @media (max-width: 768px) {
-              section {
-                background-image: url('/hero-mobile.jpg') !important;
-              }
-            }
-          `}</style>
-
+        {/* HERO */}
+        <section className="hero min-h-screen flex items-center justify-center px-6 text-center text-white">
           <div className="max-w-4xl rounded-3xl bg-black/60 p-6 md:p-10">
             <h1 className="text-4xl font-bold md:text-7xl">
               Play Competitive & Social Tennis in Tokyo
@@ -68,36 +54,6 @@ export default function Home() {
               that brings together players from around the world for
               competitive and social tennis events.
             </p>
-
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
-              <div className="rounded-2xl bg-gray-100 p-6">
-                <h3 className="text-xl font-semibold">🎾 Free Membership</h3>
-                <p className="mt-3 text-gray-600">
-                  Join our community and enjoy regular events.
-                </p>
-              </div>
-
-              <div className="rounded-2xl bg-gray-100 p-6">
-                <h3 className="text-xl font-semibold">📍 Tokyo Locations</h3>
-                <p className="mt-3 text-gray-600">
-                  Ariake, Azabu-Juban, Shiba Park and more.
-                </p>
-              </div>
-
-              <div className="rounded-2xl bg-gray-100 p-6">
-                <h3 className="text-xl font-semibold">🌍 International Community</h3>
-                <p className="mt-3 text-gray-600">
-                  Meet players from around the world.
-                </p>
-              </div>
-
-              <div className="rounded-2xl bg-gray-100 p-6">
-                <h3 className="text-xl font-semibold">🤝 Friendly & Competitive</h3>
-                <p className="mt-3 text-gray-600">
-                  Improve your tennis while making new friends.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 
