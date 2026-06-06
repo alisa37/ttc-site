@@ -72,7 +72,7 @@ export default function Home() {
 
             <p className="mt-6 text-lg leading-8 text-gray-700">
               Whether you are a resident, expat, traveler, or visiting player,
-              you'll find a welcoming community and competitive tennis.
+              you&apos;ll find a welcoming community and competitive tennis.
             </p>
 
             <a
