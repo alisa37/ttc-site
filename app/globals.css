@@ -1,14 +1,10 @@
 @import "tailwindcss";
 
-/* =========================
-   Base Theme Variables
-========================= */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -16,29 +12,18 @@
   }
 }
 
-/* =========================
-   Base Styles
-========================= */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
-/* =========================
-   Utility (Hero Section)
-   ※LP用背景画像制御
-========================= */
 .hero {
   background-image: url('/hero-desktop.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .hero {
     background-image: url('/hero-mobile.jpg');
