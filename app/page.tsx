@@ -54,7 +54,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
             >
-              Join Events on Meetup
+              Join Tokyo Tennis Club
             </a>
 
             <p className="mt-8 text-sm text-gray-300">
@@ -169,7 +169,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
           >
-            Join Events on Meetup
+            Join Tokyo Tennis Club
           </a>
         </section>
 
