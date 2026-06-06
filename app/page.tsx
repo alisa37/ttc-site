@@ -43,8 +43,9 @@ export default function Home() {
               Play Competitive & Social Tennis in Tokyo
             </h1>
 
-            <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-gray-200 md:text-xl">
-              International tennis community for intermediate & advanced players.
+            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-gray-200 md:text-xl">
+              Join an international tennis community in Tokyo for competitive
+              singles, doubles, team competitions, and tennis camps.
             </p>
 
             <a
@@ -70,20 +71,19 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-gray-600 md:text-lg">
-              Tokyo Tennis Club is an international tennis community bringing
-              together players from around the world for competitive and social
-              tennis events in Tokyo.
+              Tokyo Tennis Club is an international tennis community in Tokyo
+              that brings together players from around the world for
+              competitive and social tennis events.
             </p>
 
             <div className="mt-14 grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
                 <h3 className="text-xl font-semibold md:text-2xl">
-                  🎾 Competitive Match Play
+                  🎾 Free Membership
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Singles, doubles, and team matches for intermediate and
-                  advanced players.
+                  Join our private tennis community at no cost.
                 </p>
               </div>
 
@@ -93,7 +93,8 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Meet players from around the world in a welcoming atmosphere.
+                  Meet passionate tennis players from around the world in a
+                  welcoming and inclusive environment.
                 </p>
               </div>
 
@@ -103,17 +104,19 @@ export default function Home() {
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Events held in Azabu-juban, Ariake, Shiba Park and more.
+                  Events are held across central Tokyo, including Azabu-juban,
+                  Ariake, Shiba Park, and other accessible venues.
                 </p>
               </div>
 
               <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
                 <h3 className="text-xl font-semibold md:text-2xl">
-                  🤝 Friendly Atmosphere
+                  🤝 Friendly & Competitive Atmosphere
                 </h3>
 
                 <p className="mt-4 text-gray-600">
-                  Competitive tennis in a social and friendly environment.
+                  Enjoy competitive tennis while making friends in a community
+                  that values respect, sportsmanship, and camaraderie.
                 </p>
               </div>
             </div>
@@ -128,23 +131,23 @@ export default function Home() {
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-gray-700">
-              Tokyo Tennis Club is one of the leading international tennis
-              communities in Tokyo, bringing together players from around the
-              world for competitive and social tennis events.
+              Tokyo Tennis Club is one of the most active international tennis
+              communities in Tokyo, connecting intermediate and advanced
+              players through singles, doubles, team competitions, and tennis
+              camps.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-gray-700">
-              We organize tennis events across Tokyo, including Azabu-juban,
-              Ariake, and Shiba Park, for intermediate and advanced players
-              looking to improve their game, meet new people, and enjoy
-              competitive match play.
+              We host tennis events throughout Tokyo, including Azabu-juban,
+              Ariake, and Shiba Park, providing opportunities to improve your
+              game, meet new people, and enjoy competitive match play.
             </p>
 
             <p className="mt-6 text-lg leading-8 text-gray-700">
-              Whether you are a Tokyo resident, expat, traveler, or tennis
-              enthusiast, our community offers a welcoming environment to play
-              singles, doubles, mixed doubles, and team competitions throughout
-              the year.
+              Whether you are a Tokyo resident, expat, traveler, or visiting
+              tennis enthusiast, Tokyo Tennis Club offers a welcoming
+              environment for singles, doubles, team competitions, and tennis
+              camps throughout the year.
             </p>
           </div>
         </section>
@@ -152,11 +155,12 @@ export default function Home() {
         {/* Final CTA */}
         <section className="bg-black px-6 py-20 text-center text-white md:py-24">
           <h2 className="text-3xl font-bold md:text-4xl">
-            Ready to Play?
+            Ready to Play Tennis in Tokyo?
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-gray-300 md:text-lg">
-            Join Tokyo Tennis Club and meet players from around the world.
+            Join Tokyo Tennis Club and play with tennis players from around the
+            world.
           </p>
 
           <a

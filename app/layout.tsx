@@ -16,10 +16,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://tokyo-tennis-club.com"),
 
-  title: "Tokyo Tennis Club | Competitive & Social Tennis in Tokyo",
+  title: "Tokyo Tennis Club | International Tennis Community in Tokyo",
 
   description:
-    "Join Tokyo Tennis Club, an international tennis community in Tokyo offering competitive and social tennis events for intermediate and advanced players.",
+    "Play competitive and social tennis in Tokyo. Join an international tennis community offering singles, doubles, team competitions, and tennis camps for intermediate and advanced players.",
+
+  keywords: [
+    "Tokyo tennis",
+    "tennis Tokyo",
+    "tennis club Tokyo",
+    "international tennis Tokyo",
+    "play tennis in Tokyo",
+    "Tokyo tennis community",
+    "Tokyo tennis events",
+    "tennis meetup Tokyo",
+    "expat tennis Tokyo",
+    "singles tennis Tokyo",
+    "doubles tennis Tokyo",
+    "tennis camp Tokyo",
+    "Tokyo Tennis Club",
+  ],
 
   applicationName: "Tokyo Tennis Club",
 
@@ -30,14 +46,26 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 
   openGraph: {
-    title: "Tokyo Tennis Club",
+    title: "Tokyo Tennis Club | International Tennis Community in Tokyo",
+
     description:
-      "Competitive and social tennis events in Tokyo for intermediate and advanced players.",
+      "Play competitive and social tennis in Tokyo. Join singles, doubles, team competitions, and tennis camps with players from around the world.",
+
     url: "https://tokyo-tennis-club.com",
+
     siteName: "Tokyo Tennis Club",
+
     images: [
       {
         url: "/hero.jpg",
@@ -46,15 +74,19 @@ export const metadata: Metadata = {
         alt: "Tokyo Tennis Club",
       },
     ],
+
     locale: "en_US",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Tokyo Tennis Club",
+
+    title: "Tokyo Tennis Club | International Tennis Community in Tokyo",
+
     description:
-      "Competitive and social tennis events in Tokyo for intermediate and advanced players.",
+      "Play competitive and social tennis in Tokyo. Join singles, doubles, team competitions, and tennis camps.",
+
     images: ["/hero.jpg"],
   },
 };
