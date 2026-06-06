@@ -1,3 +1,5 @@
+"use client";
+
 import Script from "next/script";
 
 export default function Home() {
@@ -30,154 +32,146 @@ export default function Home() {
         }}
       />
 
-      <main className="min-h-screen bg-white text-black">
-        {/* Hero Section */}
-        <section
-          className="flex min-h-screen flex-col items-center justify-center bg-cover bg-center px-6 text-center text-white"
-          style={{
-            backgroundImage: "url('/hero.jpg')",
-          }}
-        >
-          <div className="rounded-3xl bg-black/60 p-6 backdrop-blur-sm md:p-10">
-            <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-7xl">
-              Play Competitive & Social Tennis in Tokyo
-            </h1>
+      <main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth bg-white text-black">
+        {/* PAGE 1 */}
+        <section className="relative h-screen snap-start flex items-center justify-center text-center text-white">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: "url('/hero.jpg')",
+            }}
+          />
 
-            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-gray-200 md:text-xl">
-              International tennis community for intermediate & advanced players.
-            </p>
+          <div className="absolute inset-0 bg-black/50" />
 
-            <a
-              href="https://www.meetup.com/tokyo-tennis-club/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
-            >
-              Join Tokyo Tennis Club
-            </a>
+          <div className="relative z-10 px-4">
+            <div className="mx-auto max-w-5xl rounded-3xl bg-black/30 p-6 backdrop-blur-sm md:p-10">
+              <h1 className="text-3xl font-bold leading-tight sm:text-4xl md:text-7xl">
+                Play Competitive & Social Tennis in Tokyo
+              </h1>
 
-            <p className="mt-8 text-sm text-gray-300">
-              ↓ Scroll to learn more
-            </p>
+              <p className="mx-auto mt-6 max-w-3xl text-base text-gray-200 md:text-xl">
+                International tennis community for intermediate and advanced
+                players.
+              </p>
+
+              <a
+                href="https://www.meetup.com/tokyo-tennis-club/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-block rounded-full bg-white px-7 py-3 font-semibold text-black transition hover:opacity-80"
+              >
+                Join Tokyo Tennis Club
+              </a>
+
+              <p className="mt-10 text-sm text-gray-300">
+                ↓ Swipe or Scroll
+              </p>
+            </div>
           </div>
         </section>
 
-        {/* About Section */}
-        <section className="px-6 py-20 md:py-24">
-          <div className="mx-auto max-w-5xl text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">
+        {/* PAGE 2 */}
+        <section className="h-screen snap-start flex items-center justify-center px-4">
+          <div className="mx-auto max-w-6xl">
+            <h2 className="text-center text-3xl font-bold md:text-5xl">
               What is Tokyo Tennis Club?
             </h2>
 
-            <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-gray-600 md:text-lg">
+            <p className="mx-auto mt-6 max-w-3xl text-center text-gray-600 md:text-lg">
               Tokyo Tennis Club is an international tennis community in Tokyo
               that brings together players from around the world for
               competitive and social tennis events.
             </p>
 
-            <div className="mt-14 grid gap-6 md:grid-cols-2">
-              <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
-                <h3 className="text-xl font-semibold md:text-2xl">
+            <div className="mt-10 grid gap-5 md:grid-cols-2">
+              <div className="rounded-2xl bg-gray-100 p-6">
+                <h3 className="text-xl font-semibold">
                   🎾 Free Membership
                 </h3>
-
-                <p className="mt-4 text-gray-600">
-                  Join our private tennis community for free and enjoy regular tennis events in Tokyo.
+                <p className="mt-3 text-gray-600">
+                  Join our private tennis community for free and enjoy regular
+                  tennis events in Tokyo.
                 </p>
               </div>
-              
-              <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
-                <h3 className="text-xl font-semibold md:text-2xl">
+
+              <div className="rounded-2xl bg-gray-100 p-6">
+                <h3 className="text-xl font-semibold">
                   📍 Tokyo Locations
                 </h3>
-
-                <p className="mt-4 text-gray-600">
-                  Play tennis across central Tokyo, including Azabu-juban, Ariake, Shiba Park, and more.
+                <p className="mt-3 text-gray-600">
+                  Play across Azabu-juban, Ariake, Shiba Park and other popular
+                  tennis venues.
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
-                <h3 className="text-xl font-semibold md:text-2xl">
+              <div className="rounded-2xl bg-gray-100 p-6">
+                <h3 className="text-xl font-semibold">
                   🌍 International Community
                 </h3>
-
-                <p className="mt-4 text-gray-600">
-                  Meet passionate tennis players from around the world in a
-                  welcoming and inclusive environment.
+                <p className="mt-3 text-gray-600">
+                  Meet players from around the world in a welcoming environment.
                 </p>
               </div>
 
-              <div className="rounded-2xl bg-gray-100 p-6 md:p-8">
-                <h3 className="text-xl font-semibold md:text-2xl">
-                  🤝 Friendly & Competitive Atmosphere
+              <div className="rounded-2xl bg-gray-100 p-6">
+                <h3 className="text-xl font-semibold">
+                  🤝 Friendly & Competitive
                 </h3>
-
-                <p className="mt-4 text-gray-600">
-                  Enjoy competitive tennis and build friendships in a supportive community.
+                <p className="mt-3 text-gray-600">
+                  Improve your game while building friendships through regular
+                  match play.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* SEO Section */}
-        <section className="bg-gray-50 px-6 py-20 md:py-24">
-          <div className="mx-auto max-w-4xl">
-            <h2 className="text-center text-3xl font-bold md:text-4xl">
+        {/* PAGE 3 */}
+        <section className="h-screen snap-start bg-black text-white flex items-center justify-center px-4">
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-3xl font-bold md:text-5xl">
               International Tennis Community in Tokyo
             </h2>
 
-            <p className="mt-8 text-lg leading-8 text-gray-700">
-              Tokyo Tennis Club is one of the most active international tennis
-              communities in Tokyo, connecting intermediate and advanced
-              players through singles, doubles, team competitions, and tennis
-              camps.
+            <p className="mt-6 text-gray-300 md:text-lg">
+              Tokyo Tennis Club connects intermediate and advanced players
+              through singles, doubles, team competitions and tennis camps.
             </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              We host tennis events throughout Tokyo, including Azabu-juban,
-              Ariake, and Shiba Park, providing opportunities to improve your
-              game, meet new people, and enjoy competitive match play.
+            <p className="mt-5 text-gray-300 md:text-lg">
+              Whether you are a Tokyo resident, expat, traveler or visiting
+              tennis enthusiast, you'll find competitive and social tennis
+              opportunities throughout the year.
             </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              Whether you are a Tokyo resident, expat, traveler, or visiting
-              tennis enthusiast, Tokyo Tennis Club offers a welcoming
-              environment for singles, doubles, team competitions, and tennis
-              camps throughout the year.
+            <h3 className="mt-12 text-2xl font-bold md:text-4xl">
+              Ready to Play Tennis in Tokyo?
+            </h3>
+
+            <p className="mt-4 text-gray-300">
+              Join Tokyo Tennis Club and play with tennis players from around
+              the world.
             </p>
+
+            <a
+              href="https://www.meetup.com/tokyo-tennis-club/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-block rounded-full bg-white px-8 py-4 font-semibold text-black transition hover:opacity-80"
+            >
+              Join Tokyo Tennis Club
+            </a>
+
+            <div className="mt-16 border-t border-white/20 pt-6 text-sm text-gray-400">
+              <p>3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
+
+              <p className="mt-2">
+                Made with love by Tokyo Tennis Club
+              </p>
+            </div>
           </div>
         </section>
-
-        {/* Final CTA */}
-        <section className="bg-black px-6 py-20 text-center text-white md:py-24">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Ready to Play Tennis in Tokyo?
-          </h2>
-
-          <p className="mx-auto mt-6 max-w-2xl text-base text-gray-300 md:text-lg">
-            Join Tokyo Tennis Club and play with tennis players from around the
-            world.
-          </p>
-
-          <a
-            href="https://www.meetup.com/tokyo-tennis-club/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
-          >
-            Join Tokyo Tennis Club
-          </a>
-        </section>
-
-        {/* Footer */}
-        <footer className="border-t border-gray-200 px-6 py-10 text-center text-sm text-gray-500">
-          <p>3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
-
-          <p className="mt-3">
-            Made with love by Tokyo Tennis Club
-          </p>
-        </footer>
       </main>
     </>
   );
