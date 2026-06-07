@@ -38,6 +38,7 @@ body {
 
 @media (min-width: 768px) {
   .hero-section {
-    background-image: url("/hero.jpg");
+    background-image: url("/hero-desktop.jpg");
+    background-position: center center;
   }
 }
