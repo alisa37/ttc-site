@@ -20,10 +20,10 @@ export default function Home() {
         }}
       />
 
-      <main className="h-screen overflow-y-scroll snap-y snap-mandatory bg-white text-black">
-        {/* PAGE 1: HERO */}
+      <main className="bg-white text-black md:h-screen md:overflow-y-scroll md:snap-y md:snap-mandatory">
+        {/* HERO */}
         <section
-          className="flex h-screen snap-start items-center justify-center bg-cover bg-center px-6 text-center text-white"
+          className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
           style={{
             backgroundImage: "url('/hero.jpg')",
             backgroundPosition: "center center",
@@ -48,14 +48,14 @@ export default function Home() {
               Join Tokyo Tennis Club
             </a>
 
-            <p className="mt-7 text-sm text-gray-300">
+            <p className="mt-7 text-sm text-gray-300 md:block">
               ↓ Scroll to learn more
             </p>
           </div>
         </section>
 
-        {/* PAGE 2: ABOUT */}
-        <section className="flex h-screen snap-start items-center justify-center bg-white px-6">
+        {/* ABOUT */}
+        <section className="flex min-h-screen items-center justify-center bg-white px-6 py-20 md:h-screen md:snap-start md:py-0">
           <div className="mx-auto max-w-6xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
               What is Tokyo Tennis Club?
@@ -115,8 +115,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PAGE 3: SEO + CTA + FOOTER */}
-        <section className="flex h-screen snap-start items-center justify-center bg-gray-50 px-6">
+        {/* SEO + CTA + FOOTER */}
+        <section className="flex min-h-screen items-center justify-center bg-gray-50 px-6 py-20 md:h-screen md:snap-start md:py-0">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
               International Tennis Community in Tokyo
