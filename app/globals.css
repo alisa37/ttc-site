@@ -17,28 +17,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.hero {
-  background-image: url('/hero-desktop.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-@media (max-width: 768px) {
-  .hero {
-    background-image: url('/hero-mobile.jpg');
-  }
-}
-
-.hero-section {
-  background-image: url("/hero-mobile.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-@media (min-width: 768px) {
-  .hero-section {
-    background-image: url("/hero-desktop.jpg");
-    background-position: center center;
-  }
-}
