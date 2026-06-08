@@ -170,7 +170,13 @@ export default function Home() {
 
             {/* FAQ */}
             <div className="mx-auto mt-20 max-w-4xl text-center">
-              <h2 className="text-3xl font-bold md:text-4xl">FAQ</h2>
+              <div className="flex items-center justify-center gap-6">
+                <div className="h-px flex-1 bg-gray-300" />
+                <h2 className="text-3xl font-bold md:text-4xl">
+                  FAQ
+                </h2>
+                <div className="h-px flex-1 bg-gray-300" />
+              </div>
 
               <div className="mt-8 space-y-6">
                 <details className="group">
