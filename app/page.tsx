@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO + CTA + FOOTER */}
+        {/* SEO + FAQ + CTA + FOOTER */}
         <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
@@ -172,7 +172,7 @@ export default function Home() {
             <div className="mx-auto mt-20 max-w-4xl text-center">
               <h2 className="text-3xl font-bold md:text-4xl">FAQ</h2>
 
-              <div className="mt-8 space-y-5">
+              <div className="mt-8 space-y-6">
                 <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
