@@ -133,33 +133,32 @@ export default function Home() {
 
         {/* SEO + FAQ + CTA + FOOTER */}
         <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
-          <div className="mx-auto max-w-5xl text-center">
-            <h2 className="text-4xl font-bold md:text-5xl">
-              Join Tokyo Tennis Club Today!
-            </h2>
+        <div className="mx-auto max-w-5xl text-center">
+          <h2 className="text-4xl font-bold md:text-5xl">
+            Join Tokyo Tennis Club Today!
+          </h2>
 
-            <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
+          {/* Mobile */}
+          <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
+            We connect intermediate and advanced players through singles,
+            doubles, team competitions, and tennis camps across Tokyo. Play,
+            improve, compete, and meet new people in a welcoming environment.
+          </p>
+
+          {/* Desktop & iPad */}
+          <div className="hidden md:block">
+            <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
               We connect intermediate and advanced players through singles,
-              doubles, team competitions, and tennis camps across Tokyo. Play,
-              improve, compete, and meet new people in a welcoming environment.
+              doubles, team competitions, and tennis camps across Tokyo.
             </p>
 
-            <div className="mx-auto max-w-5xl text-center">
-              <h2 className="text-4xl font-bold md:text-5xl">
-                Ready to Play Tennis in Tokyo?
-              </h2>
-
-              <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
-                We connect intermediate and advanced players through singles,
-                doubles, team competitions, and tennis camps across Tokyo.
-              </p>
-
-              <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
-                Whether you are a resident, expat, traveler, or visiting tennis
-                enthusiast, our community provides opportunities to play,
-                improve, compete, and meet new people.
-              </p>
-            </div>
+            <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
+              Whether you are a resident, expat, traveler, or visiting tennis
+              enthusiast, our community provides opportunities to play,
+              improve, compete, and meet new people.
+            </p>
+          </div>
+        </div>
 
             {/* FAQ */}
             <div className="mx-auto mt-20 max-w-4xl text-center">
