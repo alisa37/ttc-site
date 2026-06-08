@@ -168,6 +168,31 @@ export default function Home() {
               </p>
             </div>
 
+            {/* UPCOMING EVENTS */}
+            <div className="mx-auto mt-20 max-w-4xl text-center">
+              <div className="flex items-center justify-center gap-6">
+                <div className="h-px flex-1 bg-gray-300" />
+                <h2 className="text-3xl font-bold md:text-4xl">
+                  Upcoming Events
+                </h2>
+                <div className="h-px flex-1 bg-gray-300" />
+              </div>
+
+              <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-700">
+                Check our latest tennis events in Tokyo, including doubles, singles,
+                social tennis sessions, and team competitions.
+              </p>
+
+              <a
+                href="https://www.meetup.com/tokyo-tennis-club/events/?type=upcoming"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-block rounded-full bg-black px-8 py-4 text-base font-semibold text-white transition hover:opacity-80"
+              >
+                View Upcoming Events on Meetup
+              </a>
+            </div>
+
             {/* FAQ */}
             <div className="mx-auto mt-20 max-w-4xl text-center">
               <div className="flex items-center justify-center gap-6">
@@ -299,9 +324,9 @@ export default function Home() {
               Join Tokyo Tennis Club
             </a>
 
-            <footer className="mt-9 text-base text-gray-500">
+            <footer className="mt-8 text-xs text-gray-400">
               <p>107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
-              <p className="mt-2">Made with love by Tokyo Tennis Club</p>
+              <p className="mt-1">Made with love by Tokyo Tennis Club</p>
             </footer>
           </div>
         </section>
