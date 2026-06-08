@@ -41,7 +41,7 @@ export default function Home() {
             backgroundImage: "url('/hero.jpg')",
           }}
         >
-          <div className="max-w-3xl rounded-3xl bg-black/25 p-5 backdrop-blur-sm md:bg-black/40 md:p-8">
+          <div className="mt-[-24px] max-w-3xl rounded-3xl bg-black/25 p-5 backdrop-blur-sm md:mt-0 md:bg-black/40 md:p-8">
             <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
               Play Competitive & Social Tennis in Tokyo
             </h1>
