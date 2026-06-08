@@ -144,13 +144,20 @@ export default function Home() {
               improve, compete, and meet new people in a welcoming environment.
             </p>
 
-            <div className="hidden md:block">
-              <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
-                Tokyo Tennis Club connects intermediate and advanced players through singles, 
-                doubles, team competitions, and tennis camps across Tokyo.
+            <div className="mx-auto max-w-5xl text-center">
+              <h2 className="text-4xl font-bold md:text-5xl">
+                Ready to Play Tennis in Tokyo?
+              </h2>
 
-                Whether you are a resident, expat, traveler, or visiting tennis enthusiast, 
-                our community provides opportunities to play, improve, compete, and meet new people.
+              <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
+                We connect intermediate and advanced players through singles,
+                doubles, team competitions, and tennis camps across Tokyo.
+              </p>
+
+              <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
+                Whether you are a resident, expat, traveler, or visiting tennis
+                enthusiast, our community provides opportunities to play,
+                improve, compete, and meet new people.
               </p>
             </div>
 
