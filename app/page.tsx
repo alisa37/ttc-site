@@ -36,12 +36,25 @@ export default function Home() {
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
-          className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
-          style={{
-            backgroundImage: "url('/hero.jpg')",
-            backgroundPosition: "center center",
-          }}
+          className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
         >
+          {/* Mobile */}
+          <div
+            className="absolute inset-0 bg-cover bg-center md:hidden"
+            style={{
+              backgroundImage: "url('/hero-mobile.jpg')",
+            }}
+          />
+
+        {/* Desktop */}
+        <div
+          className="absolute inset-0 hidden bg-cover bg-center md:block"
+          style={{
+            backgroundImage: "url('/hero-desktop.jpg')",
+          }}
+        />
+
+  <div className="relative z-10 max-w-3xl rounded-3xl bg-black/40 p-6 backdrop-blur-sm md:p-8">
           <div className="max-w-3xl rounded-3xl bg-black/40 p-6 backdrop-blur-sm md:p-8">
             <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
               Play Competitive & Social Tennis in Tokyo
