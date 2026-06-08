@@ -135,7 +135,7 @@ export default function Home() {
         <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
-              Join Tokyo Tennis Club Today
+              Join Tokyo Tennis Club Today!
             </h2>
 
             <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
