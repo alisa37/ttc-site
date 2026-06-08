@@ -52,7 +52,7 @@ export default function Home() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-gray-200 md:hidden">
-              International tennis community in Tokyo.
+              International tennis community for intermediate & advanced players.
             </p>
 
             <p className="mx-auto mt-6 hidden max-w-2xl text-xl leading-8 text-gray-200 md:block">
@@ -83,7 +83,7 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-4xl text-lg leading-8 text-gray-600 md:hidden">
-              A Tokyo tennis community for competitive and social players.
+              A vibrant Tokyo tennis community for intermediate and advanced players.
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
@@ -140,8 +140,8 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
-              Join singles, doubles, team competitions, and tennis camps in
-              Tokyo.
+              We connect intermediate and advanced players through singles, doubles, team competitions, and tennis camps across Tokyo.
+              Play, improve, compete, and meet new people in a welcoming environment.
             </p>
 
             <div className="hidden md:block">
