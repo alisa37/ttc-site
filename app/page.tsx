@@ -168,16 +168,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* UPCOMING EVENTS */}
-            <div className="mx-auto mt-20 max-w-4xl text-center">
-              <div className="flex items-center justify-center gap-6">
-                <div className="h-px flex-1 bg-gray-300" />
-                <h2 className="text-3xl font-bold md:text-4xl">
-                  Upcoming Events
-                </h2>
-                <div className="h-px flex-1 bg-gray-300" />
-              </div>
-
               <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-700">
                 Check our latest tennis events in Tokyo, including doubles, singles,
                 social tennis sessions, and team competitions.
@@ -303,8 +293,8 @@ export default function Home() {
                     How do I join an event?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Simply register through our event page by clicking the "Join Tennis
-                    Club" button.
+                    Simply register through our event page by clicking the &quot;Join Tennis
+                    Club&quot; button.
                   </p>
                 </details>
               </div>
