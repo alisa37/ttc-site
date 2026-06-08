@@ -81,7 +81,7 @@ export default function Home() {
         {/* ABOUT */}
         <section className="bg-white px-6 py-20 md:flex md:min-h-screen md:items-center md:justify-center md:py-0">
           <div className="mx-auto max-w-6xl text-center">
-            <h2 className="text-4xl font-bold md:text-5xl">
+            <h2 className="text-3xl font-bold md:text-5xl">
               What is Tokyo Tennis Club?
             </h2>
 
