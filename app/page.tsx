@@ -169,98 +169,96 @@ export default function Home() {
             </div>
 
             {/* FAQ */}
-            <div className="mx-auto mt-20 max-w-4xl">
+            <div className="mx-auto mt-20 max-w-4xl text-left">
               <h2 className="text-center text-3xl font-bold md:text-4xl">
                 FAQ
               </h2>
 
-              <div className="mt-10 space-y-4">
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+              <div className="mt-10 divide-y divide-gray-200">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Who can join Tokyo Tennis Club?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    Tokyo Tennis Club is open to adults of all nationalities who
-                    enjoy playing tennis and meeting new people.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Tokyo Tennis Club is open to adults of all nationalities who enjoy
+                    playing tennis and meeting new people.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     What tennis level is required?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    Most events are designed for intermediate and advanced
-                    players, but some social events are open to improving
-                    beginners.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Most events are designed for intermediate and advanced players, but
+                    some social events are open to improving beginners.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Is membership free?
                   </summary>
-                  <p className="mt-3 text-gray-700">
+                  <p className="mt-3 leading-7 text-gray-600">
                     Yes, membership is completely free.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Where do you play tennis in Tokyo?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    We organize tennis events across Tokyo, including
-                    Azabu-juban, Ariake, Shiba Park, and other popular tennis
-                    venues.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    We organize tennis events across Tokyo, including Azabu-juban,
+                    Ariake, Shiba Park, and other popular tennis venues.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Can visitors or tourists join?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    Yes. Visitors and tourists are welcome to join many of our
-                    tennis events in Tokyo.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Yes. Visitors and tourists are welcome to join many of our tennis
+                    events in Tokyo.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Are events conducted in English?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    Most events are conducted primarily in English, making them
-                    ideal for expats, travelers, and international residents.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Most events are conducted primarily in English, making them ideal for
+                    expats, travelers, and international residents.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     Do you organize singles and doubles matches?
                   </summary>
-                  <p className="mt-3 text-gray-700">
+                  <p className="mt-3 leading-7 text-gray-600">
                     We organize both singles and doubles events, as well as team
                     competitions and tennis camps throughout the year.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     How often do you organize tennis events?
                   </summary>
-                  <p className="mt-3 text-gray-700">
-                    We organize tennis events regularly throughout the week
-                    across multiple locations in Tokyo.
+                  <p className="mt-3 leading-7 text-gray-600">
+                    We organize tennis events regularly throughout the week across
+                    multiple locations in Tokyo.
                   </p>
                 </details>
 
-                <details className="rounded-xl border bg-white p-5 shadow-sm">
-                  <summary className="cursor-pointer text-lg font-semibold">
+                <details className="group py-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
                     How do I join an event?
                   </summary>
-                  <p className="mt-3 text-gray-700">
+                  <p className="mt-3 leading-7 text-gray-600">
                     Simply register through our Meetup page and follow the event
                     instructions.
                   </p>
