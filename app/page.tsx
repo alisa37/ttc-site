@@ -175,8 +175,8 @@ export default function Home() {
                     Who can join Tokyo Tennis Club?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Tokyo Tennis Club is open to players of all nationalities who
-                    enjoy tennis and value good sportsmanship.
+                    Tokyo Tennis Club is open to players of all nationalities who enjoy
+                    tennis and value good sportsmanship.
                   </p>
                 </details>
 
@@ -187,9 +187,22 @@ export default function Home() {
                     What tennis level is required?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are designed for intermediate and advanced
-                    players who follow proper tennis etiquette and are familiar
-                    with basic tennis rules.
+                    Most events are designed for intermediate and advanced players who
+                    follow proper tennis etiquette and are familiar with basic tennis
+                    rules.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    I haven&apos;t played tennis in a while. Can I still join?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Absolutely. Many members return to tennis after a break. As long as
+                    you&apos;re around an intermediate level, follow basic tennis etiquette,
+                    and enjoy playing, you&apos;ll fit right in.
                   </p>
                 </details>
 
@@ -211,9 +224,8 @@ export default function Home() {
                     Where do you play tennis in Tokyo?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events across Tokyo, including
-                    Azabu-juban, Ariake, Shiba Park, and other popular tennis
-                    venues.
+                    We organize tennis events across Tokyo at convenient, well-connected
+                    venues, including Azabu-juban, Ariake, Shiba Park, and more.
                   </p>
                 </details>
 
@@ -224,8 +236,7 @@ export default function Home() {
                     Can visitors or tourists join?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Visitors and tourists are very welcome to join our
-                    events.
+                    Yes. Visitors and tourists are very welcome to join our events.
                   </p>
                 </details>
 
@@ -236,8 +247,8 @@ export default function Home() {
                     Are events conducted in English?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English, making them ideal for
-                    expats, travelers, and international residents in Tokyo.
+                    Most events are conducted in English and bring together expats,
+                    travelers, and local players from diverse backgrounds.
                   </p>
                 </details>
 
@@ -248,7 +259,7 @@ export default function Home() {
                     Do you organize singles and doubles matches?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize both singles and doubles events, as well as team
+                    Yes. We organize both singles and doubles events, as well as team
                     competitions and tennis camps throughout the year.
                   </p>
                 </details>
@@ -260,8 +271,31 @@ export default function Home() {
                     How often do you organize tennis events?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events regularly throughout the week
-                    across multiple locations in Tokyo.
+                    We organize tennis events regularly throughout the week across multiple
+                    locations in Tokyo.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Do I need my own racket?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    No. Rental rackets can be reserved through the event page if needed.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Is there a dress code?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    No formal dress code. Just wear comfortable activewear and appropriate
+                    tennis shoes.
                   </p>
                 </details>
 
