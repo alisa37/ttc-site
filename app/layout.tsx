@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://tokyo-tennis-club.com"),
 
-  title: "Tokyo Tennis Club | International Tennis Community in Tokyo",
+  title: "Tokyo Tennis Club | Competitive & Social Tennis in Tokyo",
 
   description:
     "Play competitive and social tennis in Tokyo. Join an international tennis community offering singles, doubles, team competitions, and tennis camps for intermediate and advanced players.",
