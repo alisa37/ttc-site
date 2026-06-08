@@ -37,11 +37,11 @@ export default function Home() {
         {/* HERO */}
         <section
           className="
-          flex min-h-screen items-center justify-center
-          bg-cover bg-[position:65%_center]
-          px-6 py-20 text-center text-white
-          md:h-screen md:snap-start md:bg-[position:60%_center] md:py-0
-          lg:bg-center
+            flex min-h-screen items-center justify-center
+            bg-cover bg-[position:65%_center]
+            px-6 py-20 text-center text-white
+            md:h-screen md:snap-start md:bg-[position:60%_center] md:py-0
+            lg:bg-center
           "
           style={{
             backgroundImage: "url('/hero.jpg')",
@@ -84,11 +84,14 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-4xl text-lg leading-8 text-gray-600 md:hidden">
-              A place where intermediate and advanced tennis players connect, compete, and build camaraderie through tennis.
+              A place where intermediate and advanced tennis players connect,
+              compete, and build camaraderie through tennis.
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
-              Tokyo Tennis Club is a vibrant international tennis community in Tokyo that brings together players from around the world through competitive and social tennis events.
+              Tokyo Tennis Club is a vibrant international tennis community in
+              Tokyo that brings together players from around the world through
+              competitive and social tennis events.
             </p>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -131,34 +134,33 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO + FAQ + CTA + FOOTER */}
+        {/* CTA + FAQ + FOOTER */}
         <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
-        <div className="mx-auto max-w-5xl text-center">
-          <h2 className="text-4xl font-bold md:text-5xl">
-            Join Tokyo Tennis Club Today!
-          </h2>
+          <div className="mx-auto max-w-5xl text-center">
+            <h2 className="text-4xl font-bold md:text-5xl">
+              Join Tokyo Tennis Club Today!
+            </h2>
 
-          {/* Mobile */}
-          <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
-            We connect intermediate and advanced players through singles,
-            doubles, team competitions, and tennis camps across Tokyo. Play,
-            improve, compete, and meet new people in a welcoming environment.
-          </p>
-
-          {/* Desktop & iPad */}
-          <div className="hidden md:block">
-            <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
+            {/* Mobile */}
+            <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
               We connect intermediate and advanced players through singles,
-              doubles, team competitions, and tennis camps across Tokyo.
+              doubles, team competitions, and tennis camps across Tokyo. Play,
+              improve, compete, and meet new people in a welcoming environment.
             </p>
 
-            <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
-              Whether you are a resident, expat, traveler, or visiting tennis
-              enthusiast, our community provides opportunities to play,
-              improve, compete, and meet new people.
-            </p>
-          </div>
-        </div>
+            {/* Desktop & iPad */}
+            <div className="hidden md:block">
+              <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
+                We connect intermediate and advanced players through singles,
+                doubles, team competitions, and tennis camps across Tokyo.
+              </p>
+
+              <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
+                Whether you are a resident, expat, traveler, or visiting tennis
+                enthusiast, our community provides opportunities to play,
+                improve, compete, and meet new people.
+              </p>
+            </div>
 
             {/* FAQ */}
             <div className="mx-auto mt-20 max-w-4xl text-center">
