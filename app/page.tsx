@@ -53,11 +53,11 @@ export default function Home() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-gray-200 md:hidden">
-              International tennis community in Tokyo.
+              A Vibrant International tennis community
             </p>
 
             <p className="mx-auto mt-6 hidden max-w-2xl text-xl leading-8 text-gray-200 md:block">
-              International tennis community in Tokyo for intermediate and
+              International tennis community in Tokyo for intermediate 
               advanced players.
             </p>
 
@@ -84,8 +84,7 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-4xl text-lg leading-8 text-gray-600 md:hidden">
-              A vibrant international tennis community for intermediate and
-              advanced players.
+              A place where intermediate and advanced tennis players connect, compete, and build camaraderie through tennis.
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
