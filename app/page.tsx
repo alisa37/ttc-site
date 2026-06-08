@@ -169,17 +169,15 @@ export default function Home() {
             </div>
 
             {/* FAQ */}
-            <div className="mx-auto mt-20 max-w-4xl text-left">
-              <h2 className="text-center text-3xl font-bold md:text-4xl">
-                FAQ
-              </h2>
+            <div className="mx-auto mt-20 max-w-4xl text-center">
+              <h2 className="text-3xl font-bold md:text-4xl">FAQ</h2>
 
-              <div className="mt-10 divide-y divide-gray-200">
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Who can join Tokyo Tennis Club?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+              <div className="mt-10 space-y-4">
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Who can join Tokyo Tennis Club?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Tokyo Tennis Club is open to adults of all nationalities who
@@ -187,11 +185,11 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>What tennis level is required?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    What tennis level is required?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Most events are designed for intermediate and advanced
@@ -200,22 +198,22 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Is membership free?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Is membership free?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Yes, membership is completely free.
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Where do you play tennis in Tokyo?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Where do you play tennis in Tokyo?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize tennis events across Tokyo, including
@@ -224,11 +222,11 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Can visitors or tourists join?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Can visitors or tourists join?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Yes. Visitors and tourists are welcome to join many of our
@@ -236,23 +234,22 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Are events conducted in English?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Are events conducted in English?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English, making them ideal for
-                    expats, travelers, and international residents in Tokyo.
+                    Most events are conducted in English, making them ideal for expats, travelers, and international residents in Tokyo.
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>Do you organize singles and doubles matches?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Do you organize singles and doubles matches?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize both singles and doubles events, as well as team
@@ -260,11 +257,11 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>How often do you organize tennis events?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    How often do you organize tennis events?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize tennis events regularly throughout the week
@@ -272,15 +269,14 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group py-6">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
-                    <span>How do I join an event?</span>
-                    <span className="group-open:hidden">▶</span>
-                    <span className="hidden group-open:inline">▼</span>
+                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    How do I join an event?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Simply register through our Meetup page and follow the
-                    event details.
+                    Simply register through our event page and follow the event details.
                   </p>
                 </details>
               </div>
