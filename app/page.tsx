@@ -38,12 +38,10 @@ export default function Home() {
         <section
           className="
           flex min-h-screen items-center justify-center
-          bg-cover
-          bg-[position:65%_center]      // iPhone
-          md:bg-[position:60%_center]   // iPad
-          lg:bg-center                  // PC
+          bg-cover bg-[position:65%_center]
           px-6 py-20 text-center text-white
-          md:h-screen md:snap-start md:py-0
+          md:h-screen md:snap-start md:bg-[position:60%_center] md:py-0
+          lg:bg-center
           "
           style={{
             backgroundImage: "url('/hero.jpg')",
@@ -86,7 +84,8 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-4xl text-lg leading-8 text-gray-600 md:hidden">
-              A vibrant Tokyo tennis community for intermediate and advanced players.
+              A vibrant international tennis community for intermediate and
+              advanced players.
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
@@ -143,8 +142,9 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
-              We connect intermediate and advanced players through singles, doubles, team competitions, and tennis camps across Tokyo.
-              Play, improve, compete, and meet new people in a welcoming environment.
+              We connect intermediate and advanced players through singles,
+              doubles, team competitions, and tennis camps across Tokyo. Play,
+              improve, compete, and meet new people in a welcoming environment.
             </p>
 
             <div className="hidden md:block">
@@ -166,6 +166,86 @@ export default function Home() {
                 tennis enthusiast, Tokyo Tennis Club offers a welcoming
                 environment to play, improve, compete, and meet new people.
               </p>
+            </div>
+
+            {/* FAQ */}
+            <div className="mx-auto mt-20 max-w-4xl text-left">
+              <h2 className="text-center text-3xl font-bold md:text-4xl">
+                Frequently Asked Questions
+              </h2>
+
+              <div className="mt-10 space-y-8">
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Who can join Tokyo Tennis Club?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Tokyo Tennis Club is open to adults of all nationalities who
+                    enjoy playing tennis and meeting new people.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    What tennis level is required?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Most events are designed for intermediate and advanced
+                    players, but some social events are open to improving
+                    beginners.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Where do you play tennis in Tokyo?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    We organize tennis events at courts across Tokyo, including
+                    Azabu-juban, Ariake, Shiba Park, and other popular
+                    locations.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Is membership free?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Yes, membership is completely free.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Can visitors or tourists join?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Yes. Visitors and tourists are welcome to join many of our
+                    tennis events in Tokyo.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    Are events conducted in English?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Most events are conducted primarily in English, making them
+                    ideal for expats, travelers, and international residents.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">
+                    How do I join an event?
+                  </h3>
+                  <p className="mt-2 text-gray-700">
+                    Simply register through our Meetup page and follow the event
+                    instructions.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <a
