@@ -15,6 +15,19 @@ export default function Home() {
             logo: "https://tokyo-tennis-club.com/favicon.ico",
             description:
               "International tennis community in Tokyo for intermediate and advanced players.",
+            sport: "Tennis",
+            areaServed: {
+              "@type": "City",
+              name: "Tokyo",
+            },
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "3-14-11 Minami-aoyama",
+              addressLocality: "Minato-ku",
+              addressRegion: "Tokyo",
+              postalCode: "107-0062",
+              addressCountry: "JP",
+            },
             sameAs: ["https://www.meetup.com/tokyo-tennis-club/"],
           }),
         }}
@@ -23,9 +36,9 @@ export default function Home() {
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
-          className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
+          className="flex min-h-[85vh] items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:min-h-screen md:bg-[url('/hero-desktop.jpg')] md:py-0"
           style={{
-            backgroundImage: "url('/hero.jpg')",
+            backgroundImage: "url('/hero-mobile.jpg')",
             backgroundPosition: "center center",
           }}
         >
