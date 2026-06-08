@@ -57,7 +57,7 @@ export default function Home() {
             </p>
 
             <p className="mx-auto mt-6 hidden max-w-2xl text-xl leading-8 text-gray-200 md:block">
-              International tennis community in Tokyo for intermediate 
+              International tennis community in Tokyo for intermediate &
               advanced players.
             </p>
 
@@ -88,9 +88,7 @@ export default function Home() {
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
-              Tokyo Tennis Club is an international tennis community in Tokyo
-              that brings together players from around the world for
-              competitive and social tennis events.
+              Tokyo Tennis Club is a vibrant international tennis community in Tokyo that brings together players from around the world through competitive and social tennis events.
             </p>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2">
