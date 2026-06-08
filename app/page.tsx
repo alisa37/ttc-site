@@ -20,7 +20,7 @@ export default function Home() {
         }}
       />
 
-      <main className="bg-white text-black md:h-screen md:overflow-y-scroll md:snap-y md:snap-mandatory">
+      <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
           className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
