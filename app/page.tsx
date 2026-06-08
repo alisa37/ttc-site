@@ -36,9 +36,9 @@ export default function Home() {
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
-          className="flex min-h-[85vh] items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:min-h-screen md:bg-[url('/hero-desktop.jpg')] md:py-0"
+          className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
           style={{
-            backgroundImage: "url('/hero-mobile.jpg')",
+            backgroundImage: "url('/hero.jpg')",
             backgroundPosition: "center center",
           }}
         >
