@@ -143,22 +143,19 @@ export default function Home() {
 
             {/* Mobile */}
             <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
-              We connect intermediate and advanced players through singles,
-              doubles, team competitions, and tennis camps across Tokyo. Play,
-              improve, compete, and meet new people in a welcoming environment.
+              Play singles, doubles, team competitions, and tennis camps with intermediate and advanced players across Tokyo.
+              Join a welcoming community where you can play, compete, and improve.
             </p>
 
             {/* Desktop & iPad */}
             <div className="hidden md:block">
               <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
-                We connect intermediate and advanced players through singles,
-                doubles, team competitions, and tennis camps across Tokyo.
+                Play singles, doubles, team competitions, and tennis camps with intermediate and advanced players across Tokyo.
               </p>
 
               <p className="mx-auto mt-7 max-w-5xl text-xl leading-9 text-gray-700">
-                Whether you are a resident, expat, traveler, or visiting tennis
-                enthusiast, our community provides opportunities to play,
-                improve, compete, and meet new people.
+                Whether you are a resident, expat, traveler, or visiting tennis enthusiast, 
+                our community provides opportunities to play, compete, and improve in a welcoming environment.
               </p>
             </div>
 
