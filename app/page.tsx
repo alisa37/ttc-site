@@ -135,7 +135,7 @@ export default function Home() {
         </section>
 
         {/* SEO + CTA + FOOTER */}
-        <section className="bg-gray-50 px-6 py-20 md:flex md:min-h-screen md:items-center md:justify-center md:py-0">
+        <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
               International Tennis Community in Tokyo
@@ -172,8 +172,8 @@ export default function Home() {
             <div className="mx-auto mt-20 max-w-4xl text-center">
               <h2 className="text-3xl font-bold md:text-4xl">FAQ</h2>
 
-              <div className="mt-10 space-y-4">
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+              <div className="mt-8 space-y-5">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -185,7 +185,7 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -198,7 +198,7 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -209,7 +209,7 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -222,7 +222,7 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -234,18 +234,19 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
                     Are events conducted in English?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English, making them ideal for expats, travelers, and international residents in Tokyo.
+                    Most events are conducted in English, making them ideal for
+                    expats, travelers, and international residents in Tokyo.
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -257,7 +258,7 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
@@ -269,14 +270,15 @@ export default function Home() {
                   </p>
                 </details>
 
-                <details className="group rounded-xl border border-black bg-white p-5 shadow-sm">
+                <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
                     How do I join an event?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Simply register through our event page and follow the event details.
+                    Simply register through our event page and follow the event
+                    details.
                   </p>
                 </details>
               </div>
