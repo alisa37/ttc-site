@@ -135,7 +135,7 @@ export default function Home() {
         <section className="bg-gray-50 px-6 py-28 md:flex md:min-h-screen md:items-start md:justify-center md:pt-32 md:pb-20">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="text-4xl font-bold md:text-5xl">
-              International Tennis Community in Tokyo
+              Ready to Play Tennis in Tokyo?
             </h2>
 
             <p className="mx-auto mt-8 text-lg leading-8 text-gray-700 md:hidden">
@@ -146,11 +146,13 @@ export default function Home() {
 
             <div className="hidden md:block">
               <p className="mx-auto mt-9 max-w-5xl text-xl leading-9 text-gray-700">
-                International Tennis Community in Tokyo
+                Ready to Play Tennis in Tokyo?
 
-                Tokyo Tennis Club connects intermediate and advanced players through singles, doubles, team competitions, and tennis camps across Tokyo.
+                Tokyo Tennis Club connects intermediate and advanced players through singles, 
+                doubles, team competitions, and tennis camps across Tokyo.
 
-                Whether you are a resident, expat, traveler, or visiting tennis enthusiast, our community provides opportunities to play, improve, compete, and meet new people.
+                Whether you are a resident, expat, traveler, or visiting tennis enthusiast, 
+                our community provides opportunities to play, improve, compete, and meet new people.
               </p>
             </div>
 
