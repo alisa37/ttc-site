@@ -210,6 +210,33 @@ export default function Home() {
               </p>
             </div>
 
+            {/* UPCOMING EVENTS */}
+            <div className="mx-auto mt-20 max-w-4xl">
+              <div className="flex items-center justify-center gap-6">
+                <div className="h-px flex-1 bg-gray-300" />
+                <h2 className="text-3xl font-bold md:text-4xl">
+                  Upcoming Events
+                </h2>
+                <div className="h-px flex-1 bg-gray-300" />
+              </div>
+
+              <div className="mt-10 rounded-2xl bg-white p-8 shadow-sm">
+                <p className="text-lg text-gray-700">
+                  View upcoming tennis events, singles sessions, doubles matches, and team
+                  competitions hosted by Tokyo Tennis Club.
+                </p>
+
+                <a
+                  href="https://www.meetup.com/tokyo-tennis-club/events/?type=upcoming"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80"
+                >
+                  View Upcoming Events
+                </a>
+              </div>
+            </div>
+
             {/* FAQ */}
             <div className="mx-auto mt-20 max-w-4xl text-center">
               <div className="flex items-center justify-center gap-6">
