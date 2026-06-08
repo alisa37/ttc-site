@@ -35,27 +35,18 @@ export default function Home() {
 
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
-        <section
-          className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0"
-        >
-          {/* Mobile */}
+        <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-20 text-center text-white md:h-screen md:snap-start md:py-0">
           <div
             className="absolute inset-0 bg-cover bg-center md:hidden"
-            style={{
-              backgroundImage: "url('/hero-mobile.jpg')",
-            }}
+            style={{ backgroundImage: "url('/hero-mobile.jpg')" }}
           />
 
-        {/* Desktop */}
-        <div
-          className="absolute inset-0 hidden bg-cover bg-center md:block"
-          style={{
-            backgroundImage: "url('/hero-desktop.jpg')",
-          }}
-        />
+          <div
+            className="absolute inset-0 hidden bg-cover bg-center md:block"
+            style={{ backgroundImage: "url('/hero-desktop.jpg')" }}
+          />
 
-  <div className="relative z-10 max-w-3xl rounded-3xl bg-black/40 p-6 backdrop-blur-sm md:p-8">
-          <div className="max-w-3xl rounded-3xl bg-black/40 p-6 backdrop-blur-sm md:p-8">
+          <div className="relative z-10 max-w-3xl rounded-3xl bg-black/40 p-6 backdrop-blur-sm md:p-8">
             <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
               Play Competitive & Social Tennis in Tokyo
             </h1>
@@ -95,10 +86,7 @@ export default function Home() {
 
             <div className="mt-12 grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
-                <h3 className="text-2xl font-semibold">
-                  🎾 Free Membership
-                </h3>
-
+                <h3 className="text-2xl font-semibold">🎾 Free Membership</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                   Join our private tennis community for free and enjoy regular
                   singles, doubles, and team events throughout Tokyo.
@@ -106,10 +94,7 @@ export default function Home() {
               </div>
 
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
-                <h3 className="text-2xl font-semibold">
-                  📍 Tokyo Locations
-                </h3>
-
+                <h3 className="text-2xl font-semibold">📍 Tokyo Locations</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                   Play tennis across central Tokyo, including Azabu-juban,
                   Ariake, Shiba Park, and other popular venues.
@@ -117,10 +102,7 @@ export default function Home() {
               </div>
 
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
-                <h3 className="text-2xl font-semibold">
-                  🌍 International Community
-                </h3>
-
+                <h3 className="text-2xl font-semibold">🌍 International Community</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                   Meet passionate tennis players from around the world in a
                   welcoming, inclusive, and friendly environment.
@@ -131,7 +113,6 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold">
                   🤝 Friendly & Competitive Atmosphere
                 </h3>
-
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                   Enjoy competitive tennis while building friendships in a
                   respectful and supportive international community.
