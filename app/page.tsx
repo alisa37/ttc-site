@@ -84,30 +84,82 @@ export default function Home() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-4xl text-lg leading-8 text-gray-600 md:hidden">
-              A vibrant international tennis community for intermediate and
-              advanced players.
+              A vibrant international tennis community for intermediate and advanced
+              players.
             </p>
 
             <p className="mx-auto mt-7 hidden max-w-4xl text-xl leading-9 text-gray-600 md:block">
-              Tokyo Tennis Club is an international tennis community in Tokyo
-              that brings together players from around the world for
-              competitive and social tennis events.
+              Tokyo Tennis Club is an international tennis community in Tokyo that
+              brings together players from around the world for competitive and social
+              tennis events.
             </p>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {/* Mobile Accordion */}
+            <div className="mt-10 space-y-6 md:hidden">
+              <details className="group">
+                <summary className="cursor-pointer list-none text-lg font-semibold">
+                  <span className="group-open:hidden">▸</span>
+                  <span className="hidden group-open:inline">▾</span>{" "}
+                  🎾 Free Membership
+                </summary>
+                <p className="mt-3 leading-7 text-gray-600">
+                  Join our private tennis community for free and enjoy regular singles,
+                  doubles, and team events throughout Tokyo.
+                </p>
+              </details>
+
+              <details className="group">
+                <summary className="cursor-pointer list-none text-lg font-semibold">
+                  <span className="group-open:hidden">▸</span>
+                  <span className="hidden group-open:inline">▾</span>{" "}
+                  📍 Tokyo Locations
+                </summary>
+                <p className="mt-3 leading-7 text-gray-600">
+                  Play tennis across central Tokyo, including Azabu-juban, Ariake, Shiba
+                  Park, and other popular venues.
+                </p>
+              </details>
+
+              <details className="group">
+                <summary className="cursor-pointer list-none text-lg font-semibold">
+                  <span className="group-open:hidden">▸</span>
+                  <span className="hidden group-open:inline">▾</span>{" "}
+                  🌍 International Community
+                </summary>
+                <p className="mt-3 leading-7 text-gray-600">
+                  Meet passionate tennis players from around the world in a welcoming,
+                  inclusive, and friendly environment.
+                </p>
+              </details>
+
+              <details className="group">
+                <summary className="cursor-pointer list-none text-lg font-semibold">
+                  <span className="group-open:hidden">▸</span>
+                  <span className="hidden group-open:inline">▾</span>{" "}
+                  🤝 Friendly & Competitive Atmosphere
+                </summary>
+                <p className="mt-3 leading-7 text-gray-600">
+                  Enjoy competitive tennis while building friendships in a respectful and
+                  supportive international community.
+                </p>
+              </details>
+            </div>
+
+            {/* Desktop Cards */}
+            <div className="mt-12 hidden gap-6 md:grid md:grid-cols-2">
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
                 <h3 className="text-2xl font-semibold">🎾 Free Membership</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
-                  Join our private tennis community for free and enjoy regular
-                  singles, doubles, and team events throughout Tokyo.
+                  Join our private tennis community for free and enjoy regular singles,
+                  doubles, and team events throughout Tokyo.
                 </p>
               </div>
 
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
                 <h3 className="text-2xl font-semibold">📍 Tokyo Locations</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
-                  Play tennis across central Tokyo, including Azabu-juban,
-                  Ariake, Shiba Park, and other popular venues.
+                  Play tennis across central Tokyo, including Azabu-juban, Ariake, Shiba
+                  Park, and other popular venues.
                 </p>
               </div>
 
@@ -116,8 +168,8 @@ export default function Home() {
                   🌍 International Community
                 </h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
-                  Meet passionate tennis players from around the world in a
-                  welcoming, inclusive, and friendly environment.
+                  Meet passionate tennis players from around the world in a welcoming,
+                  inclusive, and friendly environment.
                 </p>
               </div>
 
@@ -126,8 +178,8 @@ export default function Home() {
                   🤝 Friendly & Competitive Atmosphere
                 </h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
-                  Enjoy competitive tennis while building friendships in a
-                  respectful and supportive international community.
+                  Enjoy competitive tennis while building friendships in a respectful and
+                  supportive international community.
                 </p>
               </div>
             </div>
