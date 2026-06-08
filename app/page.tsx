@@ -36,12 +36,12 @@ export default function Home() {
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
-          className="flex min-h-screen items-center justify-center bg-cover bg-[position:60%_center] px-6 py-20 text-center text-white md:h-screen md:bg-center md:snap-start md:py-0"
+          className="flex min-h-screen items-center justify-center bg-cover bg-center px-6 py-20 text-center text-white md:h-screen md:bg-center md:snap-start md:py-0"
           style={{
             backgroundImage: "url('/hero.jpg')",
           }}
         >
-          <div className="mt-[-24px] max-w-3xl rounded-3xl bg-black/25 p-5 backdrop-blur-sm md:mt-0 md:bg-black/40 md:p-8">
+          <div className="max-w-3xl rounded-3xl bg-black/25 p-5 backdrop-blur-sm md:bg-black/40 md:p-8">
             <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
               Play Competitive & Social Tennis in Tokyo
             </h1>
