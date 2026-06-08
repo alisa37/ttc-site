@@ -210,8 +210,8 @@ export default function Home() {
               </p>
             </div>
 
-            {/* UPCOMING EVENTS */}
-            <div className="mx-auto mt-20 max-w-4xl">
+            {/* MEETUP EVENTS EMBED */}
+            <div className="mx-auto mt-20 max-w-6xl text-center">
               <div className="flex items-center justify-center gap-6">
                 <div className="h-px flex-1 bg-gray-300" />
                 <h2 className="text-3xl font-bold md:text-4xl">
@@ -220,21 +220,23 @@ export default function Home() {
                 <div className="h-px flex-1 bg-gray-300" />
               </div>
 
-              <div className="mt-10 rounded-2xl bg-white p-8 shadow-sm">
-                <p className="text-lg text-gray-700">
-                  View upcoming tennis events, singles sessions, doubles matches, and team
-                  competitions hosted by Tokyo Tennis Club.
-                </p>
-
-                <a
-                  href="https://www.meetup.com/tokyo-tennis-club/events/?type=upcoming"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-block rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80"
-                >
-                  View Upcoming Events
-                </a>
+              <div className="mt-10 overflow-hidden rounded-3xl bg-white shadow-md">
+                <iframe
+                  src="https://www.meetup.com/tokyo-tennis-club/events/?type=upcoming"
+                  title="Tokyo Tennis Club Upcoming Events"
+                  className="h-[900px] w-full border-0"
+                  loading="lazy"
+                />
               </div>
+
+              <a
+                href="https://www.meetup.com/tokyo-tennis-club/events/?type=upcoming"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-block rounded-full bg-black px-8 py-4 text-base font-semibold text-white transition hover:opacity-80"
+              >
+                View Events on Meetup
+              </a>
             </div>
 
             {/* FAQ */}
