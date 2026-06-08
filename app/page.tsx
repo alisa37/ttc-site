@@ -53,7 +53,7 @@ export default function Home() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-gray-200 md:hidden">
-              International tennis community for intermediate & advanced players.
+              International tennis community in Tokyo.
             </p>
 
             <p className="mx-auto mt-6 hidden max-w-2xl text-xl leading-8 text-gray-200 md:block">
