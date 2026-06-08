@@ -94,51 +94,43 @@ export default function Home() {
               tennis events.
             </p>
 
-            {/* Mobile Accordion */}
-            <div className="mt-10 space-y-6 md:hidden">
-              <details className="group">
-                <summary className="cursor-pointer list-none text-lg font-semibold">
-                  <span className="group-open:hidden">▸</span>
-                  <span className="hidden group-open:inline">▾</span>{" "}
+            {/* Mobile Collapsible Cards */}
+            <div className="mt-12 grid gap-6 md:hidden">
+              <details className="rounded-2xl bg-white p-6 shadow-md">
+                <summary className="cursor-pointer list-none text-2xl font-semibold">
                   🎾 Free Membership
                 </summary>
-                <p className="mt-3 leading-7 text-gray-600">
+                <p className="mt-5 text-lg leading-8 text-gray-600">
                   Join our private tennis community for free and enjoy regular singles,
                   doubles, and team events throughout Tokyo.
                 </p>
               </details>
 
-              <details className="group">
-                <summary className="cursor-pointer list-none text-lg font-semibold">
-                  <span className="group-open:hidden">▸</span>
-                  <span className="hidden group-open:inline">▾</span>{" "}
+              <details className="rounded-2xl bg-white p-6 shadow-md">
+                <summary className="cursor-pointer list-none text-2xl font-semibold">
                   📍 Tokyo Locations
                 </summary>
-                <p className="mt-3 leading-7 text-gray-600">
+                <p className="mt-5 text-lg leading-8 text-gray-600">
                   Play tennis across central Tokyo, including Azabu-juban, Ariake, Shiba
                   Park, and other popular venues.
                 </p>
               </details>
 
-              <details className="group">
-                <summary className="cursor-pointer list-none text-lg font-semibold">
-                  <span className="group-open:hidden">▸</span>
-                  <span className="hidden group-open:inline">▾</span>{" "}
+              <details className="rounded-2xl bg-white p-6 shadow-md">
+                <summary className="cursor-pointer list-none text-2xl font-semibold">
                   🌍 International Community
                 </summary>
-                <p className="mt-3 leading-7 text-gray-600">
+                <p className="mt-5 text-lg leading-8 text-gray-600">
                   Meet passionate tennis players from around the world in a welcoming,
                   inclusive, and friendly environment.
                 </p>
               </details>
 
-              <details className="group">
-                <summary className="cursor-pointer list-none text-lg font-semibold">
-                  <span className="group-open:hidden">▸</span>
-                  <span className="hidden group-open:inline">▾</span>{" "}
+              <details className="rounded-2xl bg-white p-6 shadow-md">
+                <summary className="cursor-pointer list-none text-2xl font-semibold">
                   🤝 Friendly & Competitive Atmosphere
                 </summary>
-                <p className="mt-3 leading-7 text-gray-600">
+                <p className="mt-5 text-lg leading-8 text-gray-600">
                   Enjoy competitive tennis while building friendships in a respectful and
                   supportive international community.
                 </p>
@@ -164,9 +156,7 @@ export default function Home() {
               </div>
 
               <div className="rounded-2xl bg-white p-6 shadow-md md:p-8">
-                <h3 className="text-2xl font-semibold">
-                  🌍 International Community
-                </h3>
+                <h3 className="text-2xl font-semibold">🌍 International Community</h3>
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                   Meet passionate tennis players from around the world in a welcoming,
                   inclusive, and friendly environment.
