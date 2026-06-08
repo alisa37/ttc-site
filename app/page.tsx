@@ -178,6 +178,7 @@ export default function Home() {
             </a>
 
             <footer className="mt-10 text-base text-gray-500">
+              <p>107-0062</p>
               <p>3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
               <p className="mt-2">Made with love by Tokyo Tennis Club</p>
             </footer>
