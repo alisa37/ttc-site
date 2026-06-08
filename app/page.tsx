@@ -176,28 +176,35 @@ export default function Home() {
 
               <div className="mt-10 divide-y divide-gray-200">
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Who can join Tokyo Tennis Club?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Who can join Tokyo Tennis Club?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Tokyo Tennis Club is open to adults of all nationalities who enjoy
-                    playing tennis and meeting new people.
+                    Tokyo Tennis Club is open to adults of all nationalities who
+                    enjoy playing tennis and meeting new people.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    What tennis level is required?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>What tennis level is required?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are designed for intermediate and advanced players, but
-                    some social events are open to improving beginners.
+                    Most events are designed for intermediate and advanced
+                    players, but some social events are open to improving
+                    beginners.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Is membership free?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Is membership free?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Yes, membership is completely free.
@@ -205,38 +212,47 @@ export default function Home() {
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Where do you play tennis in Tokyo?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Where do you play tennis in Tokyo?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events across Tokyo, including Azabu-juban,
-                    Ariake, Shiba Park, and other popular tennis venues.
+                    We organize tennis events across Tokyo, including
+                    Azabu-juban, Ariake, Shiba Park, and other popular tennis
+                    venues.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Can visitors or tourists join?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Can visitors or tourists join?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Visitors and tourists are welcome to join many of our tennis
-                    events in Tokyo.
+                    Yes. Visitors and tourists are welcome to join many of our
+                    tennis events in Tokyo.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Are events conducted in English?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Are events conducted in English?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted primarily in English, making them ideal for
-                    expats, travelers, and international residents.
+                    Most events are conducted in English, making them ideal for
+                    expats, travelers, and international residents in Tokyo.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    Do you organize singles and doubles matches?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>Do you organize singles and doubles matches?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize both singles and doubles events, as well as team
@@ -245,22 +261,26 @@ export default function Home() {
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    How often do you organize tennis events?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>How often do you organize tennis events?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events regularly throughout the week across
-                    multiple locations in Tokyo.
+                    We organize tennis events regularly throughout the week
+                    across multiple locations in Tokyo.
                   </p>
                 </details>
 
                 <details className="group py-6">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    How do I join an event?
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-semibold">
+                    <span>How do I join an event?</span>
+                    <span className="group-open:hidden">▶</span>
+                    <span className="hidden group-open:inline">▼</span>
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Simply register through our Meetup page and follow the event
-                    instructions.
+                    Simply register through our Meetup page and follow the
+                    event details.
                   </p>
                 </details>
               </div>
