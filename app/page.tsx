@@ -221,6 +221,18 @@ export default function Home() {
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
+                    How much is the participation fee?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Fees are typically around ¥2,000 for doubles and ¥3,500 for singles,
+                    depending on the event. Please see the event page for details.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
                     Where do you play tennis in Tokyo?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
@@ -237,6 +249,18 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Yes. Visitors and tourists are very welcome to join our events.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Can I bring a friend?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Yes. Friends are welcome to join. Please register each participant
+                    individually. Many members join together with friends or colleagues.
                   </p>
                 </details>
 
