@@ -304,10 +304,10 @@ export default function Home() {
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
-                    Do I need my own racket?
+                    Can I rent a racket?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    No. Rental rackets can be reserved through the event page if needed.
+                    Yes. Rental rackets are available and can be reserved through the event page.
                   </p>
                 </details>
 
