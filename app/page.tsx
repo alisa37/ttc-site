@@ -321,12 +321,13 @@ export default function Home() {
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
-                    Can you arrange a private session on a specific date?
+                    Can you help arrange a private session on a specific date?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Join Tokyo Tennis Club and send us a message. We can arrange
-                    a private session for you. Private hitting starts from
-                    ¥12,000 for 2 hours. Court fees are not included.
+                    Join Tokyo Tennis Club and send us a message. 
+                    Depending on court availability, we may be able to arrange a private hitting session with a local player. 
+                    Sessions start from ¥12,000 for 2 hours. 
+                    Court fees are not included.
                   </p>
                 </details>
 
