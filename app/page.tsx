@@ -297,18 +297,6 @@ export default function Home() {
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
-                    How often do you organize tennis events?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events regularly throughout the week
-                    across multiple locations in Tokyo.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
                     Can I rent a racket?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
