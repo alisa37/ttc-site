@@ -47,7 +47,7 @@ export default function Home() {
             backgroundImage: "url('/hero.jpg')",
           }}
         >
-          <div className="max-w-3xl rounded-3xl bg-black/15 p-5 backdrop-blur-sm md:bg-black/40 md:p-8">
+          <div className="max-w-3xl rounded-3xl bg-black/15 p-5 backdrop-blur-sm md:bg-black/30 md:p-8">
             <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
               Play Competitive & Social Tennis in Tokyo
             </h1>
@@ -289,16 +289,7 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize singles, doubles, team competitions, and tennis
-                    camps throughout the year. See our{" "}
-                    <a
-                      href="https://www.meetup.com/tokyo-tennis-club/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-medium underline"
-                    >
-                      event page
-                    </a>{" "}
-                    for upcoming events.
+                    camps throughout the year. See ourevent page　for upcoming events.
                   </p>
                 </details>
 
