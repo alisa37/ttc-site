@@ -338,7 +338,7 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Simply register through our event page by clicking the
-                    &quot;Join Tennis Club&quot; button.
+                    &quot;Join Tokyo Tennis Club&quot; button.
                   </p>
                 </details>
               </div>
