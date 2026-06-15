@@ -283,10 +283,18 @@ export default function Home() {
                     Do you organize singles or doubles matches?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    We organize both singles and doubles events, as well as team
-                    competitions and tennis camps throughout the year.
+                    We organize singles, doubles, team competitions, and tennis camps throughout
+                    the year. See our{" "}
+                    <a
+                      href="https://www.meetup.com/tokyo-tennis-club/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium underline"
+                    >
+                      event page
+                    </a>{" "}
+                    for upcoming events.
                   </p>
-                </details>
 
                 <details className="group">
                   <summary className="cursor-pointer list-none text-lg font-semibold">
