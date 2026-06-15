@@ -326,7 +326,7 @@ export default function Home() {
                   <p className="mt-3 leading-7 text-gray-600">
                     Join Tokyo Tennis Club and send us a message. We can arrange
                     a private session for you. Private hitting starts from
-                    ¥10,000 for 2 hours. Court fees are not included.
+                    ¥12,000 for 2 hours. Court fees are not included.
                   </p>
                 </details>
 
