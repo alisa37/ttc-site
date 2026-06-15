@@ -289,7 +289,7 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize singles, doubles, team competitions, and tennis
-                    camps throughout the year. See ourevent page for upcoming events.
+                    camps throughout the year. See our event page for upcoming events.
                   </p>
                 </details>
 
