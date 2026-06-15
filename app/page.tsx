@@ -248,7 +248,7 @@ export default function Home() {
                     Can visitors or tourists join?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Visitors and tourists are very welcome to join our events.
+                    Yes. Visitors and tourists are welcome to join our events.
                   </p>
                 </details>
 
@@ -260,7 +260,7 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Yes. Friends are welcome to join. Please register each participant
-                    individually. Many members join together with friends or colleagues.
+                    individually. Many members join with friends, family, or colleagues.
                   </p>
                 </details>
 
@@ -280,10 +280,10 @@ export default function Home() {
                   <summary className="cursor-pointer list-none text-lg font-semibold">
                     <span className="group-open:hidden">▸</span>
                     <span className="hidden group-open:inline">▾</span>{" "}
-                    Do you organize singles and doubles matches?
+                    Do you organize singles or doubles matches?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. We organize both singles and doubles events, as well as team
+                    We organize both singles and doubles events, as well as team
                     competitions and tennis camps throughout the year.
                   </p>
                 </details>
@@ -320,6 +320,19 @@ export default function Home() {
                   <p className="mt-3 leading-7 text-gray-600">
                     No formal dress code. Just wear comfortable activewear and appropriate
                     tennis shoes.
+                  </p>
+                </details>
+
+                <details className="group">
+                  <summary className="cursor-pointer list-none text-lg font-semibold">
+                    <span className="group-open:hidden">▸</span>
+                    <span className="hidden group-open:inline">▾</span>{" "}
+                    Looking for a specific date?
+                  </summary>
+                  <p className="mt-3 leading-7 text-gray-600">
+                    Join Tokyo Tennis Club and send us a message. We can arrange
+                    a private session for you. Private hitting starts from
+                    ¥10,000 for 2 hours. Court fees are not included.
                   </p>
                 </details>
 
