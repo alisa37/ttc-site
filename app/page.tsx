@@ -325,7 +325,7 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     Join Tokyo Tennis Club and send us a message. 
-                    We'll check court availability and see if we can arrange a private hitting session with a local player. 
+                    We&apos;ll check court availability and see if we can arrange a private hitting session with a local player. 
                     Sessions start from ¥12,000 for 2 hours. 
                     Court fees are not included.
                   </p>
