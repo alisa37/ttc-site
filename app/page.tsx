@@ -357,7 +357,7 @@ export default function Home() {
             <footer className="mt-8 text-sm text-gray-400">
               <p>107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
               <p className="mt-2">
-                © {new Date().getFullYear()} Made with love by Tokyo Tennis Club
+                © {new Date().getFullYear()} Tokyo Tennis Club. Made with love.
               </p>
             </footer>
           </div>
