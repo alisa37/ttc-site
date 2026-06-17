@@ -1,25 +1,5 @@
 import Script from "next/script";
 
-<section className="bg-gray-50 px-6 py-20 text-center">
-  <h2 className="text-3xl font-bold text-gray-900">
-    Upcoming Tennis Events in Tokyo
-  </h2>
-
-  <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-gray-600">
-    We organize singles, doubles, team competitions, and tennis camps throughout
-    the year. Please check Meetup for the latest schedule.
-  </p>
-
-  <a
-    href="https://www.meetup.com/tokyo-tennis-club/events/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-8 inline-flex rounded-full bg-black px-8 py-4 font-semibold text-white transition hover:bg-gray-800"
-  >
-    View Upcoming Events on Meetup
-  </a>
-</section>
-
 export default function Home() {
   return (
     <>
