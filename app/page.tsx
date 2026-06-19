@@ -266,7 +266,7 @@ export default function Home() {
                     Please register each participant individually.
                     For safety, and facility regulations, 
                     only registered players may enter the tennis courts. 
-                    Non-playing guests, spectators, photographers, and large groups are not permitted.
+                    Non-playing guests, spectators, and photographers are not permitted.
                   </p>
                 </details>
 
