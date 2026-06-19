@@ -150,7 +150,7 @@ export default function TennisInTokyoPage() {
             Join Tokyo Tennis Club
           </a>
 
-          <div className="mt-8">
+          <div className="mt-5">
             <Link
             href="/"
             className="text-sm font-semibold text-gray-500 underline underline-offset-4"
@@ -160,7 +160,7 @@ export default function TennisInTokyoPage() {
           </div>
         </div>
 
-        <footer className="mt-16 text-center text-sm text-gray-400">
+        <footer className="mt-8 text-center text-sm text-gray-400">
           <p>
             107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan
           </p>
