@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Tennis in Tokyo | Best Tennis Courts & How to Play",
@@ -45,6 +46,16 @@ export default function TennisInTokyoPage() {
           Ariake Tennis Forest Park
         </h2>
 
+        <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
+          <Image
+            src="/Ariake.avif"
+            alt="Ariake Tennis Forest Park"
+            fill
+            sizes="(max-width: 768px) 100vw, 896px"
+            className="object-cover"
+          />
+        </div>
+
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Ariake Tennis Forest Park is Japan&apos;s premier tennis venue and
           regularly hosts major international tournaments. Its world-class
@@ -64,6 +75,16 @@ export default function TennisInTokyoPage() {
           Shiba Park Tennis Courts
         </h2>
 
+        <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
+          <Image
+            src="/Shiba-park.avif"
+            alt="Shiba Park Tennis Courts"
+            fill
+            sizes="(max-width: 768px) 100vw, 896px"
+            className="object-cover"
+          />
+        </div>
+
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Located just steps from Tokyo Tower, Shiba Park Tennis Courts offer
           one of the most unique tennis experiences in Tokyo. The courts are
@@ -81,6 +102,16 @@ export default function TennisInTokyoPage() {
         <h2 className="mb-6 text-3xl font-bold md:text-4xl">
           Azabu Sports Field Tennis Courts
         </h2>
+
+        <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
+          <Image
+            src="/Azabu-juban.avif"
+            alt="Azabu Sports Field Tennis Courts"
+            fill
+            sizes="(max-width: 768px) 100vw, 896px"
+            className="object-cover"
+          />
+        </div>
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Azabu Sports Field is one of the most convenient tennis facilities in
@@ -152,18 +183,16 @@ export default function TennisInTokyoPage() {
 
           <div className="mt-5">
             <Link
-            href="/"
-            className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition hover:opacity-80 md:text-base"
+              href="/"
+              className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition hover:opacity-80 md:text-base"
             >
-            ← Back to Home
+              ← Back to Home
             </Link>
           </div>
         </div>
 
         <footer className="mt-8 text-center text-sm text-gray-400">
-          <p>
-            107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan
-          </p>
+          <p>107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
 
           <p className="mt-2">
             © {new Date().getFullYear()} Tokyo Tennis Club. Made with love.
