@@ -262,11 +262,11 @@ export default function Home() {
                     Can I bring a friend?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Friends are welcome to join and play. 
-                    Please register each participant individually.
-                    For safety, and facility regulations, 
-                    only registered players may enter the tennis courts. 
-                    Non-playing guests, spectators, and photographers are not permitted.
+                    Yes. Friends are welcome to join and play. Please register
+                    each participant individually. For safety, and facility
+                    regulations, only registered players may enter the tennis
+                    courts. Non-playing guests, spectators, and photographers
+                    are not permitted.
                   </p>
                 </details>
 
@@ -277,8 +277,8 @@ export default function Home() {
                     Are events conducted in English?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English and bring together expats, 
-                    visitors, and local players from diverse backgrounds.
+                    Most events are conducted in English and bring together
+                    expats, visitors, and local players from diverse backgrounds.
                   </p>
                 </details>
 
@@ -290,7 +290,8 @@ export default function Home() {
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
                     We organize singles, doubles, team competitions, and tennis
-                    camps throughout the year. See our event page for upcoming events.
+                    camps throughout the year. See our event page for upcoming
+                    events.
                   </p>
                 </details>
 
@@ -325,10 +326,10 @@ export default function Home() {
                     Can you arrange a private session on a specific date?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Join Tokyo Tennis Club and send us a message. 
-                    We&apos;ll check court availability and see if we can arrange a private hitting session with a local player. 
-                    Sessions start from ¥12,000 for 2 hours. 
-                    Court fees are not included.
+                    Join Tokyo Tennis Club and send us a message. We&apos;ll
+                    check court availability and see if we can arrange a private
+                    hitting session with a local player. Sessions start from
+                    ¥12,000 for 2 hours. Court fees are not included.
                   </p>
                 </details>
 
@@ -354,6 +355,15 @@ export default function Home() {
             >
               Join Tokyo Tennis Club
             </a>
+
+            <div className="mt-5">
+              <a
+                href="/tennis-in-tokyo"
+                className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition hover:opacity-80 md:text-base"
+              >
+                Tennis in Tokyo Guide →
+              </a>
+            </div>
 
             <footer className="mt-8 text-sm text-gray-400">
               <p>107-0062, 3-14-11 Minami-aoyama, Minato-ku, Tokyo, Japan</p>
