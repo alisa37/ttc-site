@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Tennis in Tokyo | Best Tennis Courts & How to Play",
@@ -150,12 +151,12 @@ export default function TennisInTokyoPage() {
           </a>
 
           <div className="mt-8">
-            <a
-              href="/"
-              className="text-sm font-semibold text-gray-500 underline underline-offset-4"
+            <Link
+            href="/"
+            className="text-sm font-semibold text-gray-500 underline underline-offset-4"
             >
-              ← Back to Home
-            </a>
+            ← Back to Home
+            </Link>
           </div>
         </div>
 
