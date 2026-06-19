@@ -262,9 +262,11 @@ export default function Home() {
                     Can I bring a friend?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Friends are welcome to join. Please register each
-                    participant individually. Many members join with friends,
-                    family, or colleagues.
+                    Yes. Friends are welcome to join and play. 
+                    Please register each participant individually.
+                    For safety, and facility regulations, 
+                    only registered players may enter the tennis courts. 
+                    Non-playing guests, spectators, photographers, and large groups are not permitted.
                   </p>
                 </details>
 
