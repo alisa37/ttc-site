@@ -277,9 +277,8 @@ export default function Home() {
                     Are events conducted in English?
                   </summary>
                   <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English and bring together
-                    expats, travelers, and local players from diverse
-                    backgrounds.
+                    Most events are conducted in English and bring together expats, 
+                    visitors, and local players from diverse backgrounds.
                   </p>
                 </details>
 
