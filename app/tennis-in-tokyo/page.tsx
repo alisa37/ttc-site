@@ -153,7 +153,7 @@ export default function TennisInTokyoPage() {
           <div className="mt-5">
             <Link
             href="/"
-            className="text-sm font-semibold text-gray-500 underline underline-offset-4"
+            className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition hover:opacity-80 md:text-base"
             >
             ← Back to Home
             </Link>
