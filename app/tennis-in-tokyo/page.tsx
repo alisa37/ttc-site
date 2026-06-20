@@ -107,13 +107,13 @@ export default function TennisInTokyoPage() {
         </ul>
 
         <h3 className="mb-6 text-2xl font-bold md:text-3xl">
-          Azabu Sports Field Tennis Courts
+          Azabu Tennis Courts
         </h3>
 
         <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
             src="/Azabu-juban.avif"
-            alt="Azabu Sports Field Tennis Courts"
+            alt="Azabu Tennis Courts"
             fill
             sizes="(max-width: 768px) 100vw, 896px"
             className="object-cover"
@@ -121,14 +121,14 @@ export default function TennisInTokyoPage() {
         </div>
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          Azabu Sports Field Tennis Courts are one of the most convenient tennis
+          Azabu Tennis Courts are one of the most convenient tennis
           facilities in central Tokyo. Located near Hiroo, Azabu-juban,
           embassies, international schools, and Roppongi Hills, they attract
           both local and international players.
         </p>
 
         <ul className="mb-14 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: 5-6-33 Minami-Azabu, Minato-ku, Tokyo</li>
+          <li>Location: 106-0047, 5-6-33 Minami-Azabu, Minato-ku, Tokyo</li>
           <li>Surface: Omni Court  (Synthetic grass with sand)</li>
           <li>Courts: 4 courts</li>
           <li>Hiroo Station: 9 min walk</li>
