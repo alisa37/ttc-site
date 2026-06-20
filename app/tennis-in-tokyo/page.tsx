@@ -32,7 +32,7 @@ export default function TennisInTokyoPage() {
         <p className="mb-8 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Looking to play tennis in Tokyo? Tokyo offers excellent tennis
           facilities, but finding a court can be surprisingly difficult. Many
-          public courts require advance registration, lottery applications, and
+          courts require advance registration, lottery applications, and
           Japanese-language reservation systems.
         </p>
 
@@ -141,7 +141,7 @@ export default function TennisInTokyoPage() {
         </h2>
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          Booking public tennis courts in Tokyo can be challenging.
+          Booking tennis courts in Tokyo can be challenging.
         </p>
 
         <ul className="mb-8 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
