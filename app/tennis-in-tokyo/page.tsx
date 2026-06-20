@@ -35,16 +35,20 @@ export default function TennisInTokyoPage() {
           public courts require advance registration, lottery applications, and
           Japanese-language reservation systems.
         </p>
-
+        
         <p className="mb-14 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Whether you are a resident, expat, or visiting player, this guide
-          introduces three of the most popular tennis courts in Tokyo and
-          explains the easiest way to start playing.
+          introduces some of the best tennis courts in Tokyo and explains the
+          easiest way to start playing.
         </p>
 
-        <h2 className="mb-6 text-3xl font-bold md:text-4xl">
-          Ariake Tennis Forest Park
+        <h2 className="mb-10 text-3xl font-bold md:text-4xl">
+          Best Tennis Courts in Tokyo
         </h2>
+
+        <h3 className="mb-6 text-2xl font-bold md:text-3xl">
+          Ariake Tennis Forest Park
+        </h3>
 
         <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
@@ -58,22 +62,23 @@ export default function TennisInTokyoPage() {
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
           Ariake Tennis Forest Park is Japan&apos;s premier tennis venue and
-          regularly hosts major international tournaments. Its world-class
-          facilities, excellent hard courts, and professional atmosphere make it
-          one of the best places to play tennis in Tokyo, especially for
-          intermediate and advanced players.
+          one of the most famous tennis facilities in the country. It regularly
+          hosts major international tournaments and offers world-class courts,
+          professional facilities, and an outstanding playing environment.
         </p>
 
         <ul className="mb-12 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: Ariake, Koto City</li>
+          <li>Location: 2-2-22 Ariake, Koto City, Tokyo 135-0063</li>
           <li>Surface: Hard & Omni Courts</li>
-          <li>40+ indoor and outdoor courts</li>
+          <li>Courts: 40+ indoor and outdoor courts</li>
+          <li>Ariake Tennis-no-Mori Station: 8 min walk</li>
+          <li>Kokusai-tenjijo Station: 8 min walk</li>
           <li>Changing rooms, showers, and parking available</li>
         </ul>
 
-        <h2 className="mb-6 text-3xl font-bold md:text-4xl">
+        <h3 className="mb-6 text-2xl font-bold md:text-3xl">
           Shiba Park Tennis Courts
-        </h2>
+        </h3>
 
         <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
@@ -86,22 +91,24 @@ export default function TennisInTokyoPage() {
         </div>
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          Located just steps from Tokyo Tower, Shiba Park Tennis Courts offer
-          one of the most unique tennis experiences in Tokyo. The courts are
-          centrally located and especially popular among expats, international
-          visitors, and players staying in central Tokyo.
+          Located near Tokyo Tower, Shiba Park Tennis Courts offer one of the
+          most unique tennis experiences in Tokyo. The courts are centrally
+          located and popular among expats, international visitors, and players
+          staying in central Tokyo.
         </p>
 
         <ul className="mb-12 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: Shibakoen, Minato City</li>
+          <li>Location: 4-10-17 Shibakoen, Minato City, Tokyo 105-0011</li>
           <li>Surface: Omni Court</li>
-          <li>4 courts</li>
+          <li>Courts: 4 courts</li>
+          <li>Shibakoen Station: 6 min walk</li>
+          <li>Akabanebashi Station: 6 min walk</li>
           <li>Changing rooms and showers available</li>
         </ul>
 
-        <h2 className="mb-6 text-3xl font-bold md:text-4xl">
+        <h3 className="mb-6 text-2xl font-bold md:text-3xl">
           Azabu Sports Field Tennis Courts
-        </h2>
+        </h3>
 
         <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
@@ -114,16 +121,18 @@ export default function TennisInTokyoPage() {
         </div>
 
         <p className="mb-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          Azabu Sports Field is one of the most convenient tennis facilities in
-          central Tokyo. Located near Hiroo, Azabu-juban, embassies,
-          international schools, and Roppongi Hills, it attracts both local and
-          international players looking for competitive and social tennis.
+          Azabu Sports Field Tennis Courts are one of the most convenient tennis
+          facilities in central Tokyo. Located near Hiroo, Azabu-juban,
+          embassies, international schools, and Roppongi Hills, they attract
+          both local and international players.
         </p>
 
-        <ul className="mb-12 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: Minami-Azabu, Minato City</li>
+        <ul className="mb-14 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
+          <li>Location: 5-6-33 Minami-Azabu, Minato-ku, Tokyo</li>
           <li>Surface: Omni Court</li>
-          <li>4 courts</li>
+          <li>Courts: 4 courts</li>
+          <li>Hiroo Station: 9 min walk</li>
+          <li>Azabu-juban Station: 21 min walk</li>
           <li>Changing rooms and showers available</li>
         </ul>
 
