@@ -68,7 +68,17 @@ export default function TennisInTokyoPage() {
         </p>
 
         <ul className="mb-12 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: 135-0063, 2-2-22 Ariake, Koto City, Tokyo</li>
+          <li>
+            Location:{" "}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=2-2-22+Ariake+Koto+Tokyo+135-0063"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-black"
+            >
+              135-0063, 2-2-22 Ariake, Koto City, Tokyo
+            </a>
+          </li>
           <li>Surface: Hard & Omni Courts (Synthetic grass with sand)</li>
           <li>Courts: 40+ indoor and outdoor courts</li>
           <li>Ariake Tennis-no-Mori Station: 8 min walk</li>
@@ -98,7 +108,17 @@ export default function TennisInTokyoPage() {
         </p>
 
         <ul className="mb-12 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: 105-0011, 4-10-17 Shibakoen, Minato City, Tokyo</li>
+          <li>
+            Location:{" "}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=4-10-17+Shibakoen+Minato+Tokyo+105-0011"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-black"
+            >
+              105-0011, 4-10-17 Shibakoen, Minato City, Tokyo
+            </a>
+          </li>
           <li>Surface: Omni Court  (Synthetic grass with sand)</li>
           <li>Courts: 4 courts</li>
           <li>Shibakoen Station: 6 min walk</li>
@@ -128,7 +148,17 @@ export default function TennisInTokyoPage() {
         </p>
 
         <ul className="mb-14 list-disc space-y-3 pl-6 text-lg leading-8 text-gray-600 md:text-xl md:leading-9">
-          <li>Location: 106-0047, 5-6-33 Minami-Azabu, Minato-ku, Tokyo</li>
+          <li>
+            Location:{" "}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=5-6-33+Minami-Azabu+Minato+Tokyo+106-0047"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-black"
+            >
+              106-0047, 5-6-33 Minami-Azabu, Minato-ku, Tokyo
+            </a>
+          </li>
           <li>Surface: Omni Court  (Synthetic grass with sand)</li>
           <li>Courts: 4 courts</li>
           <li>Hiroo Station: 9 min walk</li>
