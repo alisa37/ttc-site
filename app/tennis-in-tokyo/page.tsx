@@ -74,10 +74,9 @@ export default function TennisInTokyoPage() {
               href="https://www.google.com/maps/search/?api=1&query=2-2-22+Ariake+Koto+Tokyo+135-0063"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-black hover:opacity-70"
+              className="underline underline-offset-4 hover:text-black"
             >
               135-0063, 2-2-22 Ariake, Koto City, Tokyo
-              <span className="ml-2 text-sm text-gray-500">Open Map ↗</span>
             </a>
           </li>
           <li>Surface: Hard & Omni Courts (Synthetic grass with sand)</li>
