@@ -33,6 +33,36 @@ export default function Home() {
         }}
       />
 
+      <Script id="ga-click-tracking" strategy="afterInteractive">
+        {`
+          document.addEventListener("click", function (event) {
+            const target = event.target.closest("[data-ga-event]");
+            if (!target || typeof window.gtag !== "function") return;
+
+            window.gtag("event", target.getAttribute("data-ga-event"), {
+              event_category: target.getAttribute("data-ga-category") || "engagement",
+              event_label: target.getAttribute("data-ga-label") || "",
+              link_url: target.getAttribute("href") || ""
+            });
+          });
+
+          document.addEventListener("toggle", function (event) {
+            const target = event.target;
+            if (
+              target.tagName !== "DETAILS" ||
+              !target.open ||
+              typeof window.gtag !== "function"
+            ) return;
+
+            window.gtag("event", "faq_open", {
+              event_category: "FAQ",
+              event_label: target.getAttribute("data-faq-question") || "",
+              faq_question: target.getAttribute("data-faq-question") || ""
+            });
+          }, true);
+        `}
+      </Script>
+
       <main className="min-h-screen bg-white text-black">
         {/* HERO */}
         <section
@@ -65,6 +95,9 @@ export default function Home() {
               href="https://www.meetup.com/tokyo-tennis-club/"
               target="_blank"
               rel="noopener noreferrer"
+              data-ga-event="meetup_click"
+              data-ga-category="CTA"
+              data-ga-label="Hero Join Tokyo Tennis Club"
               className="mt-8 inline-block rounded-full bg-white px-7 py-3 text-base font-semibold text-black transition hover:opacity-80 md:px-8 md:py-4 md:text-lg"
             >
               Join Tokyo Tennis Club
@@ -169,181 +202,74 @@ export default function Home() {
               </div>
 
               <div className="mt-8 space-y-6">
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Who can join Tokyo Tennis Club?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Tokyo Tennis Club is open to players of all nationalities who
-                    enjoy tennis and value good sportsmanship.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    What tennis level is required?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Most events are designed for intermediate and advanced
-                    players who follow proper tennis etiquette and are familiar
-                    with basic tennis rules.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    I haven&apos;t played tennis in a while. Can I still join?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Absolutely. Many members return to tennis after a break. As
-                    long as you&apos;re around an intermediate level, follow basic
-                    tennis etiquette, and enjoy playing, you&apos;ll fit right in.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Is membership free?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Yes, membership is completely free.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    How much is the participation fee?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Fees are typically around ¥2,000 for doubles and ¥3,500 for
-                    singles, depending on the event. Please see the event page
-                    for details.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Where do you play tennis in Tokyo?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    We organize tennis events across Tokyo at convenient,
-                    well-connected venues, including Azabu-juban, Ariake, Shiba
-                    Park, and more.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Can visitors or tourists join?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Visitors and tourists are welcome to join our events.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Can I bring a friend?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Friends are welcome to join and play. Please register
-                    each participant individually. For safety, and facility
-                    regulations, only registered players may enter the tennis
-                    courts. Non-playing guests, spectators, and photographers
-                    are not permitted.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Are events conducted in English?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Most events are conducted in English and bring together
-                    expats, visitors, and local players from diverse backgrounds.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Do you organize singles or doubles matches?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    We organize singles, doubles, team competitions, and tennis
-                    camps throughout the year. See our event page for upcoming
-                    events.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Can I rent a racket?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Yes. Rental rackets are available and can be reserved
-                    through the event page.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Is there a dress code?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    No formal dress code. Just wear comfortable activewear and
-                    appropriate tennis shoes.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    Can you arrange a private session on a specific date?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Join Tokyo Tennis Club and send us a message. We&apos;ll
-                    check court availability and see if we can arrange a private
-                    hitting session with a local player. Sessions start from
-                    ¥12,000 for 2 hours. Court fees are not included.
-                  </p>
-                </details>
-
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold">
-                    <span className="group-open:hidden">▸</span>
-                    <span className="hidden group-open:inline">▾</span>{" "}
-                    How do I join an event?
-                  </summary>
-                  <p className="mt-3 leading-7 text-gray-600">
-                    Simply register through our event page by clicking the
-                    &quot;Join Tokyo Tennis Club&quot; button.
-                  </p>
-                </details>
+                {[
+                  [
+                    "Who can join Tokyo Tennis Club?",
+                    "Tokyo Tennis Club is open to players of all nationalities who enjoy tennis and value good sportsmanship.",
+                  ],
+                  [
+                    "What tennis level is required?",
+                    "Most events are designed for intermediate and advanced players who follow proper tennis etiquette and are familiar with basic tennis rules.",
+                  ],
+                  [
+                    "I haven't played tennis in a while. Can I still join?",
+                    "Absolutely. Many members return to tennis after a break. As long as you're around an intermediate level, follow basic tennis etiquette, and enjoy playing, you'll fit right in.",
+                  ],
+                  ["Is membership free?", "Yes, membership is completely free."],
+                  [
+                    "How much is the participation fee?",
+                    "Fees are typically around ¥2,000 for doubles and ¥3,500 for singles, depending on the event. Please see the event page for details.",
+                  ],
+                  [
+                    "Where do you play tennis in Tokyo?",
+                    "We organize tennis events across Tokyo at convenient, well-connected venues, including Azabu-juban, Ariake, Shiba Park, and more.",
+                  ],
+                  [
+                    "Can visitors or tourists join?",
+                    "Yes. Visitors and tourists are welcome to join our events.",
+                  ],
+                  [
+                    "Can I bring a friend?",
+                    "Yes. Friends are welcome to join and play. Please register each participant individually. For safety, and facility regulations, only registered players may enter the tennis courts. Non-playing guests, spectators, and photographers are not permitted.",
+                  ],
+                  [
+                    "Are events conducted in English?",
+                    "Most events are conducted in English and bring together expats, visitors, and local players from diverse backgrounds.",
+                  ],
+                  [
+                    "Do you organize singles or doubles matches?",
+                    "We organize singles, doubles, team competitions, and tennis camps throughout the year. See our event page for upcoming events.",
+                  ],
+                  [
+                    "Can I rent a racket?",
+                    "Yes. Rental rackets are available and can be reserved through the event page.",
+                  ],
+                  [
+                    "Is there a dress code?",
+                    "No formal dress code. Just wear comfortable activewear and appropriate tennis shoes.",
+                  ],
+                  [
+                    "Can you arrange a private session on a specific date?",
+                    "Join Tokyo Tennis Club and send us a message. We'll check court availability and see if we can arrange a private hitting session with a local player. Sessions start from ¥12,000 for 2 hours. Court fees are not included.",
+                  ],
+                  [
+                    "How do I join an event?",
+                    'Simply register through our event page by clicking the "Join Tokyo Tennis Club" button.',
+                  ],
+                ].map(([question, answer]) => (
+                  <details
+                    key={question}
+                    className="group"
+                    data-faq-question={question}
+                  >
+                    <summary className="cursor-pointer list-none text-lg font-semibold">
+                      <span className="group-open:hidden">▸</span>
+                      <span className="hidden group-open:inline">▾</span>{" "}
+                      {question}
+                    </summary>
+                    <p className="mt-3 leading-7 text-gray-600">{answer}</p>
+                  </details>
+                ))}
               </div>
             </div>
 
@@ -351,6 +277,9 @@ export default function Home() {
               href="https://www.meetup.com/tokyo-tennis-club/"
               target="_blank"
               rel="noopener noreferrer"
+              data-ga-event="meetup_click"
+              data-ga-category="CTA"
+              data-ga-label="Bottom Join Tokyo Tennis Club"
               className="mt-10 inline-block rounded-full bg-black px-10 py-5 text-lg font-semibold text-white transition hover:opacity-80"
             >
               Join Tokyo Tennis Club
@@ -359,6 +288,9 @@ export default function Home() {
             <div className="mt-5">
               <a
                 href="/tennis-in-tokyo"
+                data-ga-event="tennis_in_tokyo_click"
+                data-ga-category="Internal Link"
+                data-ga-label="Bottom Tennis in Tokyo Guide"
                 className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition hover:opacity-80 md:text-base"
               >
                 Tennis in Tokyo Guide →
