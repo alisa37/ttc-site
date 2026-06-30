@@ -139,7 +139,7 @@ export default function TennisInTokyoPage() {
                 data-ga-label="Shiba Park Tennis Courts"
                 className="underline underline-offset-4 hover:text-black"
               >
-                105-0011, 4-10-17 Shibakoen, Minato City, Tokyo
+                105-0011, 4-10-10 Shibakoen, Minato City, Tokyo
               </a>
             </li>
             <li>Surface: Omni Court (Synthetic grass with sand)</li>
